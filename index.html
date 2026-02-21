@@ -1,0 +1,218 @@
+﻿<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Biblioteca de Ilustracoes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Literata:opsz,wght@7..72,400;7..72,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">Base textual</p>
+      <h1>Ilustracoes para Sermoes</h1>
+      <p id="metaLine" class="meta-line">Carregando registros...</p>
+    </div>
+    <div class="topbar-actions">
+      <button id="adminModeBtn" class="ghost-btn" type="button">Modo admin</button>
+      <button id="newStoryBtn" class="ghost-btn" type="button" style="display:none;">Nova historia</button>
+      <button id="translateBtn" class="icon-btn" type="button" aria-label="Traduzir para portugues" title="Traduzir para portugues">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M12.9 15.4c-1.2-1.1-2.2-2.4-3-3.8h2.9v-1.8H8.9V8.1h3.2V6.3H4.3v1.8h2.8v1.7H4v1.8h4.2c1 2 2.3 3.8 3.8 5.4l.9-1.6zm4.4-9.1h-2l-4 10.8h2l1-2.8h4l1 2.8h2l-4-10.8zm-2.4 6.2l1.4-4 1.4 4h-2.8z"/>
+        </svg>
+      </button>
+      <button id="clearFiltersBtn" class="ghost-btn">Limpar filtros</button>
+    </div>
+  </header>
+
+  <main class="layout">
+    <aside class="panel filters">
+      <section>
+        <label for="searchInput" class="section-label">Busca</label>
+        <input id="searchInput" type="search" placeholder="Título, autor, conteúdo, referência..." />
+      </section>
+
+      <section>
+        <label for="typeSelect" class="section-label">Tipo</label>
+        <select id="typeSelect">
+          <option value="">Todos os tipos</option>
+          <option value="illustration">Illustration</option>
+          <option value="quote">Quote</option>
+          <option value="liturgy">Liturgy</option>
+          <option value="series">Series</option>
+        </select>
+      </section>
+
+      <section>
+        <label for="authorSelect" class="section-label">Autor</label>
+        <select id="authorSelect">
+          <option value="">Todos os autores</option>
+        </select>
+      </section>
+
+      <section>
+        <label for="sortSelect" class="section-label">Ordenar</label>
+        <select id="sortSelect">
+          <option value="recent">Mais recentes</option>
+          <option value="oldest">Mais antigos</option>
+          <option value="title">Título (A-Z)</option>
+        </select>
+      </section>
+
+      <section>
+        <p class="section-label">Categorias</p>
+        <div id="categoryChips" class="chip-wrap"></div>
+      </section>
+
+      <section>
+        <p class="section-label">Tags</p>
+        <div id="tagChips" class="chip-wrap"></div>
+      </section>
+
+    </aside>
+
+    <section class="panel content">
+      <div class="results-head">
+        <p id="resultCount">0 resultados</p>
+      </div>
+      <div id="cards" class="cards"></div>
+      <div id="pagination" class="pagination"></div>
+    </section>
+  </main>
+
+  <template id="cardTemplate">
+    <article class="card">
+      <div class="card-top">
+        <h2 class="card-title"></h2>
+        <span class="date-pill"></span>
+      </div>
+      <p class="card-meta"></p>
+      <p class="card-body"></p>
+      <div class="pill-row categories"></div>
+      <a class="card-link" target="_blank" rel="noopener noreferrer">Abrir fonte</a>
+    </article>
+  </template>
+
+  <dialog id="storyModal" class="story-modal">
+    <article class="story-modal-card">
+      <header class="story-modal-head">
+        <div>
+          <p id="modalMeta" class="story-modal-meta"></p>
+          <h2 id="modalTitle" class="story-modal-title"></h2>
+        </div>
+        <button id="closeModalBtn" class="ghost-btn" type="button">Fechar</button>
+      </header>
+      <div class="story-modal-body">
+        <p id="modalSummary"></p>
+        <pre id="modalBodyText"></pre>
+      </div>
+      <footer class="story-modal-foot">
+        <button id="editStoryBtn" class="ghost-btn" type="button" style="display:none;">Editar</button>
+        <button id="deleteStoryBtn" class="ghost-btn" type="button" style="display:none;">Excluir</button>
+        <a id="modalSourceLink" class="card-link" target="_blank" rel="noopener noreferrer">Abrir no site</a>
+      </footer>
+    </article>
+  </dialog>
+
+  <dialog id="editorModal" class="story-modal">
+    <article class="story-modal-card">
+      <header class="story-modal-head">
+        <div>
+          <p id="editorMeta" class="story-modal-meta">CRUD</p>
+          <h2 id="editorTitle" class="story-modal-title">Nova historia</h2>
+        </div>
+        <button id="closeEditorBtn" class="ghost-btn" type="button">Fechar</button>
+      </header>
+      <div class="story-modal-body">
+        <form id="editorForm" class="editor-form">
+          <label>Titulo <input id="f_title" required /></label>
+          <label>Slug <input id="f_slug" /></label>
+          <label>Tipo
+            <select id="f_content_type" required>
+              <option value="illustration">illustration</option>
+              <option value="quote">quote</option>
+              <option value="liturgy">liturgy</option>
+              <option value="series">series</option>
+            </select>
+          </label>
+          <label>Componente fonte <input id="f_source_component" /></label>
+          <label>Autor <input id="f_author" /></label>
+          <label>URL <input id="f_url" /></label>
+          <label>Idioma <input id="f_lang" /></label>
+          <label>Publicado em (ISO) <input id="f_published_at" placeholder="2026-02-21T10:00:00Z" /></label>
+          <label>Resumo <textarea id="f_summary" rows="3"></textarea></label>
+          <label>Conteudo <textarea id="f_body_text" rows="8"></textarea></label>
+          <label>Categorias (csv) <input id="f_categories" /></label>
+          <label>Categorias top-level (csv) <input id="f_top_level_categories" /></label>
+          <label>Referencias biblicas (csv) <input id="f_bible_references" /></label>
+          <label>Palavras-chave (csv) <input id="f_keywords" /></label>
+          <label>Citacoes <textarea id="f_citations" rows="3"></textarea></label>
+          <label>Canonical ref <input id="f_canonical_ref" /></label>
+          <label>Tags (csv) <input id="f_auto_tags" /></label>
+        </form>
+      </div>
+      <footer class="story-modal-foot">
+        <button id="saveStoryBtn" class="ghost-btn" type="button">Salvar</button>
+      </footer>
+    </article>
+  </dialog>
+
+  <script src="app.js"></script>
+  <div id="google_translate_element" class="google-translate-hidden" aria-hidden="true"></div>
+  <script>
+    const FIXED_TRANSLATE_FROM = "en";
+    const FIXED_TRANSLATE_TO = "pt";
+
+    function setGoogTransCookie() {
+      const value = `/${FIXED_TRANSLATE_FROM}/${FIXED_TRANSLATE_TO}`;
+      document.cookie = `googtrans=${value};path=/`;
+      document.cookie = `googtrans=${value};path=/;domain=${location.hostname}`;
+    }
+
+    function forceTranslationToPtBr() {
+      setGoogTransCookie();
+      const combo = document.querySelector(".goog-te-combo");
+      if (!combo) return false;
+      if (combo.value !== FIXED_TRANSLATE_TO) {
+        combo.value = FIXED_TRANSLATE_TO;
+        combo.dispatchEvent(new Event("change"));
+      }
+      return true;
+    }
+
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement(
+        {
+          pageLanguage: "en",
+          includedLanguages: "pt",
+          autoDisplay: false
+        },
+        "google_translate_element"
+      );
+      const timer = setInterval(() => {
+        if (forceTranslationToPtBr()) clearInterval(timer);
+      }, 300);
+      setTimeout(() => clearInterval(timer), 7000);
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+      const translateBtn = document.getElementById("translateBtn");
+      if (translateBtn) {
+        translateBtn.addEventListener("click", () => {
+          if (!forceTranslationToPtBr()) {
+            setGoogTransCookie();
+            location.reload();
+          }
+        });
+      }
+    });
+  </script>
+  <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+</html>

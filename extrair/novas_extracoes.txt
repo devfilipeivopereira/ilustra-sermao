@@ -1,0 +1,16 @@
+Além das ilustrações, identifiquei outros três grandes bancos de dados que podem ser extraídos de forma organizada via Python no The Pastor's Workshop:
+1. Banco de Citações (Quotes)
+Quantidade Estimada: ~9.488 itens.
+O que podemos extrair: Texto da citação, Autor (resolvido), Fonte original (livro/obra), Categorias temáticas e Palavras-chave.
+Utilidade: Ideal para enriquecer sermões com frases de impacto de grandes pensadores e teólogos.
+2. Recursos Litúrgicos (Liturgy)
+Quantidade Estimada: ~2.618 itens.
+O que podemos extrair: Poemas, Orações, Chamadas à Adoração e Leituras responsivas.
+Utilidade: Conteúdo estruturado para a liturgia do culto, organizado por temas e épocas do calendário cristão.
+3. Séries de Sermões (Series)
+Quantidade Estimada: 46 séries completas.
+O que podemos extrair: Títulos das séries, descrições, temas centrais e a estrutura de tópicos sugerida.
+Utilidade: Planejamento de longo prazo para pregações expositivas ou temáticas.
+Sugestão Técnica
+Como a estrutura da API é a mesma (Storyblok), posso adaptar o script que desenvolvi para as ilustrações para extrair qualquer um desses bancos. O processo seria igualmente rápido e organizado em CSV/JSON.
+Gostaria que eu realizasse a extração de algum desses novos bancos para você?

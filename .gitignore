@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+
+# Generated datasets
+illustrations_complete.csv
+illustrations_complete.json
+illustrations_complete.jsonl
+illustrations_complete.sqlite
+tpw_content_complete.csv
+tpw_content_complete.json
+tpw_content_complete.jsonl
+tpw_content_complete.sqlite

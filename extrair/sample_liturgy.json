@@ -1,0 +1,491 @@
+{
+  "name": "He-They-We Poem",
+  "created_at": "2026-02-17T18:10:18.625Z",
+  "published_at": "2026-02-17T18:20:27.318Z",
+  "updated_at": "2026-02-17T18:20:27.330Z",
+  "id": 146072447560130,
+  "uuid": "f0a20a41-4c32-46ca-a818-e5bd3c6b45e4",
+  "content": {
+    "_uid": "35acb7e1-a388-4766-9f68-2317170f0873",
+    "image": {
+      "asset": {
+        "id": 1013164,
+        "alt": "Image of Jesus riding on a donkey for Palm Sunday",
+        "name": "",
+        "focus": "",
+        "title": "",
+        "source": "",
+        "filename": "https://a-us.storyblok.com/f/1016915/1200x800/e71baa3be1/jesus-on-donkey-palm-sunday.jpg",
+        "copyright": "",
+        "fieldtype": "asset",
+        "meta_data": {
+          "alt": "Image of Jesus riding on a donkey for Palm Sunday",
+          "title": "",
+          "source": "",
+          "copyright": ""
+        },
+        "is_private": false
+      },
+      "filename": "https://a-us.storyblok.com/f/1016915/1200x800/e71baa3be1/jesus-on-donkey-palm-sunday.jpg"
+    },
+    "title": "",
+    "author": "93d238ee-eaa2-455c-9a29-5ca298395a20",
+    "public": false,
+    "content": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "text": "They hailed him King as he passed by, ",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "textStyle",
+                  "attrs": {
+                    "color": "#000000"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "hard_break"
+            },
+            {
+              "text": "They strewed their garments in the road, ",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "textStyle",
+                  "attrs": {
+                    "color": "#000000"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "hard_break"
+            },
+            {
+              "text": "But they were set on earthly things, ",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "textStyle",
+                  "attrs": {
+                    "color": "#000000"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "hard_break"
+            },
+            {
+              "text": "And he on God.",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "textStyle",
+                  "attrs": {
+                    "color": "#000000"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "text": "They sang his praise for that he did, ",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "textStyle",
+                  "attrs": {
+                    "color": "#000000"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "hard_break"
+            },
+            {
+              "text": "But gave his message little thought;",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "textStyle",
+                  "attrs": {
+                    "color": "#000000"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "hard_break"
+            },
+            {
+              "text": "They could not see that their souls’ good ",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "textStyle",
+                  "attrs": {
+                    "color": "#000000"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "hard_break"
+            },
+            {
+              "text": "Was all he sought.",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "textStyle",
+                  "attrs": {
+                    "color": "#000000"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "text": "They could not understand why he, ",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "textStyle",
+                  "attrs": {
+                    "color": "#000000"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "hard_break"
+            },
+            {
+              "text": "With powers so vast at his command, ",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "textStyle",
+                  "attrs": {
+                    "color": "#000000"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "hard_break"
+            },
+            {
+              "text": "Should hesitate to claim their rights ",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "textStyle",
+                  "attrs": {
+                    "color": "#000000"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "hard_break"
+            },
+            {
+              "text": "And free the land.",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "textStyle",
+                  "attrs": {
+                    "color": "#000000"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "text": "Their own concerns and this world’s hopes ",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "textStyle",
+                  "attrs": {
+                    "color": "#000000"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "hard_break"
+            },
+            {
+              "text": "Shut out the wonder of his news;",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "textStyle",
+                  "attrs": {
+                    "color": "#000000"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "hard_break"
+            },
+            {
+              "text": "And we, with larger knowledge, ",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "textStyle",
+                  "attrs": {
+                    "color": "#000000"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "hard_break"
+            },
+            {
+              "text": "still His Way refuse.",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "textStyle",
+                  "attrs": {
+                    "color": "#000000"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "text": "He walks among us still, unseen, ",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "textStyle",
+                  "attrs": {
+                    "color": "#000000"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "hard_break"
+            },
+            {
+              "text": "And still points out the only way, ",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "textStyle",
+                  "attrs": {
+                    "color": "#000000"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "hard_break"
+            },
+            {
+              "text": "But we still follow other gods ",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "textStyle",
+                  "attrs": {
+                    "color": "#000000"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "hard_break"
+            },
+            {
+              "text": "And him betray.",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "textStyle",
+                  "attrs": {
+                    "color": "#000000"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          }
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          }
+        }
+      ]
+    },
+    "hide_seo": false,
+    "keywords": [
+      "590e9f84-5e5d-4176-bd39-5e7f199aa6a6",
+      "8333fc02-27c9-4120-a9f7-1868ffae650b",
+      "41ec8b36-e8f1-421a-8e06-8abe2b2993f2",
+      "94ba7328-c57c-44bd-83e8-19b3adc05b27",
+      "579c2c6e-8b99-4ba5-ade3-01d38da31272",
+      "a98d0dfe-222a-40cc-807f-893f3a662b5e",
+      "6d10b5ae-63c9-4eeb-a13f-8b6f4db38cd0",
+      "951b7907-444c-4594-bc46-a1e3233f738b",
+      "813a46eb-32c8-4942-9b3d-31c23f79f9c1",
+      "f71d6673-8846-4d6d-83b9-24ed5723cdac"
+    ],
+    "citations": [
+      {
+        "_uid": "2573a3ce-4586-4360-8911-3594aa072eb3",
+        "link": {
+          "id": "",
+          "url": "",
+          "linktype": "story",
+          "fieldtype": "multilink",
+          "cached_url": ""
+        },
+        "component": "citation",
+        "copyright": "",
+        "translation": [],
+        "published_work": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "Quoted in Sermon: Rev. Wayne Baswick, Palm Sunday: \"Getting It Right,\" April 2, 2020.",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "href": "https://pccweb.ca/nbpc/sermons/palm-sunday-getting-it-right/",
+                        "uuid": null,
+                        "anchor": null,
+                        "target": "_self",
+                        "linktype": "url"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "component": "liturgy",
+    "hide_auto": false,
+    "new_author": "",
+    "show_title": false,
+    "add_keyword": "",
+    "description": "",
+    "canonical_ref": {
+      "id": "",
+      "url": "",
+      "linktype": "story",
+      "fieldtype": "multilink",
+      "cached_url": ""
+    },
+    "author_emphasis": "",
+    "access_url_param": "",
+    "bible_references": [
+      {
+        "_uid": "b9519afc-a3ba-414e-8bc6-781452d31b42",
+        "book": "39eeb92e-cc0d-4862-b74f-c760a3fd2c94",
+        "verse": "12-16",
+        "chapter": "12",
+        "component": "bible_reference",
+        "translation": [],
+        "add_bible_copyright": ""
+      }
+    ],
+    "liturgy_categories": [
+      "8690e2b1-790d-42d6-aa7a-af4949a63b15"
+    ],
+    "auto_related_content": [
+      "illustration",
+      "quote",
+      "liturgy",
+      "blog"
+    ],
+    "top_level_categories": [
+      "92ff3346-6f15-41d1-8efc-bdf89c66620b"
+    ],
+    "no_access_redirect_to": "",
+    "curated_related_content": [],
+    "enforce_access_param_for_subscribers": false
+  },
+  "slug": "he-they-we-poem",
+  "full_slug": "liturgy/he-they-we-poem",
+  "sort_by_date": null,
+  "position": -13260,
+  "tag_list": [],
+  "is_startpage": false,
+  "parent_id": 442963,
+  "meta_data": null,
+  "group_id": "c6aab957-6583-4694-861b-712460e1b52d",
+  "first_published_at": "2026-02-17T18:20:27.318Z",
+  "release_id": null,
+  "lang": "default",
+  "path": null,
+  "alternates": [],
+  "default_full_slug": null,
+  "translated_slugs": null
+}
