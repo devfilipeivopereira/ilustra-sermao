@@ -1,11 +1,11 @@
-import csv
+﻿import csv
 import json
 import os
 import sqlite3
 
 from content_taxonomy import classify_record
 
-OUTPUT_PREFIX = os.getenv("OUTPUT_PREFIX", "tpw_content_complete")
+OUTPUT_PREFIX = os.getenv("OUTPUT_PREFIX", "data/tpw/tpw_content_complete")
 
 
 def load_records(output_prefix):

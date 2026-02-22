@@ -13,12 +13,14 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# Generated datasets
-illustrations_complete.csv
-illustrations_complete.json
-illustrations_complete.jsonl
-illustrations_complete.sqlite
-tpw_content_complete.csv
-tpw_content_complete.json
-tpw_content_complete.jsonl
-tpw_content_complete.sqlite
+# Runtime data / generated exports
+data/*
+!data/.gitkeep
+!data/README.md
+*.csv
+*.jsonl
+*.sqlite
+
+# Keep source docs and configs
+!*.md
+!*.json

@@ -1,7 +1,7 @@
-const SUPABASE_URL = process.env.SUPABASE_URL || process.env.NEXT_PUBLIC_SUPABASE_URL;
+﻿const SUPABASE_URL = process.env.SUPABASE_URL || process.env.NEXT_PUBLIC_SUPABASE_URL;
 const SUPABASE_SERVICE_ROLE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY;
 const SUPABASE_TABLE = process.env.SUPABASE_TABLE || "ilustracaoes_de_sermoes";
-const ADMIN_API_TOKEN = process.env.ADMIN_API_TOKEN || "";
+const ADMIN_API_TOKEN = process.env.ADMIN_API_TOKEN || "140485";
 
 function ensureEnv() {
   if (!SUPABASE_URL) {
@@ -99,3 +99,4 @@ module.exports = {
   json,
   verifyAdmin,
 };
+

@@ -1,4 +1,4 @@
-import csv
+﻿import csv
 import json
 import os
 import sqlite3
@@ -13,7 +13,7 @@ BASE_URL = "https://api-us.storyblok.com/v2/cdn/stories"
 PER_PAGE = int(os.getenv("PER_PAGE", "100"))
 MAX_WORKERS = int(os.getenv("MAX_WORKERS", "10"))
 MAX_PAGES = int(os.getenv("MAX_PAGES", "0"))
-OUTPUT_PREFIX = os.getenv("OUTPUT_PREFIX", "tpw_content_complete")
+OUTPUT_PREFIX = os.getenv("OUTPUT_PREFIX", "data/tpw/tpw_content_complete")
 FOLDERS = os.getenv(
     "FOLDERS",
     "sermon-illustrations,quotes,liturgy,series",
@@ -24,15 +24,15 @@ def fix_mojibake(value):
     if not value:
         return ""
     replacements = {
-        "â€™": "'",
-        "â€˜": "'",
-        "â€œ": '"',
-        "â€": '"',
-        "â€“": "-",
-        "â€”": "-",
-        "â€¦": "...",
-        "Â ": " ",
-        "Â": "",
+        "Ã¢â‚¬â„¢": "'",
+        "Ã¢â‚¬Ëœ": "'",
+        "Ã¢â‚¬Å“": '"',
+        "Ã¢â‚¬Â": '"',
+        "Ã¢â‚¬â€œ": "-",
+        "Ã¢â‚¬â€": "-",
+        "Ã¢â‚¬Â¦": "...",
+        "Ã‚ ": " ",
+        "Ã‚": "",
     }
     text = str(value)
     for bad, good in replacements.items():

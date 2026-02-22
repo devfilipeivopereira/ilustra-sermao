@@ -1,4 +1,4 @@
-import json
+﻿import json
 import os
 import sys
 import time
@@ -26,7 +26,7 @@ def _load_driver():
 
 
 DATABASE_URL = os.getenv("DATABASE_URL", "").strip()
-SOURCE_JSONL = os.getenv("SOURCE_JSONL", "tpw_content_complete.jsonl")
+SOURCE_JSONL = os.getenv("SOURCE_JSONL", "data/tpw/tpw_content_complete.jsonl")
 TABLE_NAME = os.getenv("PG_TABLE", "public.ilustracaoes_de_sermoes")
 BATCH_SIZE = int(os.getenv("BATCH_SIZE", "1000"))
 SLEEP_BETWEEN_BATCHES_MS = int(os.getenv("SLEEP_BETWEEN_BATCHES_MS", "20"))

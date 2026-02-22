@@ -31,6 +31,17 @@
     </div>
   </header>
 
+  <nav id="sectionNav" class="section-nav panel" aria-label="Navegacao por tipo de conteudo">
+    <a class="section-link" data-section="all" href="?secao=all">Tudo</a>
+    <a class="section-link" data-section="illustrations" href="?secao=illustrations">Ilustracoes</a>
+    <a class="section-link" data-section="sermons" href="?secao=sermons">Sermoes</a>
+    <a class="section-link" data-section="series" href="?secao=series">Series</a>
+    <a class="section-link" data-section="quotes" href="?secao=quotes">Citacoes</a>
+    <a class="section-link" data-section="liturgy" href="?secao=liturgy">Liturgias</a>
+    <a class="section-link" data-section="articles" href="?secao=articles">Artigos</a>
+    <a class="section-link" data-section="others" href="?secao=others">Outros</a>
+  </nav>
+
   <main class="layout">
     <aside class="panel filters">
       <section>
@@ -41,11 +52,7 @@
       <section>
         <label for="typeSelect" class="section-label">Tipo</label>
         <select id="typeSelect">
-          <option value="">Todos os tipos</option>
-          <option value="illustration">Illustration</option>
-          <option value="quote">Quote</option>
-          <option value="liturgy">Liturgy</option>
-          <option value="series">Series</option>
+          <option value="">Todos os tipos da secao</option>
         </select>
       </section>
 
@@ -136,9 +143,16 @@
           <label>Tipo
             <select id="f_content_type" required>
               <option value="illustration">illustration</option>
+              <option value="sermoncentral_illustration">sermoncentral_illustration</option>
+              <option value="sermon">sermon</option>
+              <option value="sermoncentral_sermon">sermoncentral_sermon</option>
               <option value="quote">quote</option>
+              <option value="citation">citation</option>
               <option value="liturgy">liturgy</option>
               <option value="series">series</option>
+              <option value="sermoncentral_series">sermoncentral_series</option>
+              <option value="article">article</option>
+              <option value="sermoncentral_article">sermoncentral_article</option>
             </select>
           </label>
           <label>Componente fonte <input id="f_source_component" /></label>

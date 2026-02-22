@@ -66,6 +66,35 @@ body {
   margin-bottom: 22px;
 }
 
+.section-nav {
+  margin-bottom: 18px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.section-link {
+  text-decoration: none;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.78);
+  color: var(--ink);
+  border-radius: 999px;
+  padding: 8px 12px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.section-link:hover {
+  border-color: var(--accent);
+}
+
+.section-link.active {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+}
+
 .topbar-actions {
   display: flex;
   align-items: center;

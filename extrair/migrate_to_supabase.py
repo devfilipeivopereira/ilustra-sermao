@@ -1,4 +1,4 @@
-import json
+﻿import json
 import os
 import sys
 import time
@@ -10,7 +10,7 @@ SUPABASE_URL = os.getenv("SUPABASE_URL", "").rstrip("/")
 SUPABASE_SERVICE_ROLE_KEY = os.getenv("SUPABASE_SERVICE_ROLE_KEY", "")
 TABLE_NAME = os.getenv("SUPABASE_TABLE", "ilustracaoes_de_sermoes")
 TABLE_FALLBACKS = os.getenv("SUPABASE_TABLE_FALLBACKS", "ilustracoes_de_sermoes")
-SOURCE_JSONL = os.getenv("SOURCE_JSONL", "tpw_content_complete.jsonl")
+SOURCE_JSONL = os.getenv("SOURCE_JSONL", "data/tpw/tpw_content_complete.jsonl")
 BATCH_SIZE = int(os.getenv("BATCH_SIZE", "100"))
 SLEEP_BETWEEN_BATCHES_MS = int(os.getenv("SLEEP_BETWEEN_BATCHES_MS", "80"))
 REQUEST_TIMEOUT_S = int(os.getenv("REQUEST_TIMEOUT_S", "120"))
@@ -138,7 +138,7 @@ def upsert_batch(session: requests.Session, endpoint: str, payload_batch: List[D
             if resp.status_code < 300:
                 return
 
-            # Retry em erros transitórios de infra
+            # Retry em erros transitÃ³rios de infra
             if resp.status_code in (408, 425, 429, 500, 502, 503, 504):
                 wait_s = min(2 ** (attempt - 1), 20)
                 print(

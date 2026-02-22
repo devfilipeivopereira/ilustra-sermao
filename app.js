@@ -1,3 +1,14 @@
+﻿const SECTION_DEFINITIONS = [
+  { id: "all", label: "Tudo" },
+  { id: "illustrations", label: "Ilustracoes" },
+  { id: "sermons", label: "Sermoes" },
+  { id: "series", label: "Series" },
+  { id: "quotes", label: "Citacoes" },
+  { id: "liturgy", label: "Liturgias" },
+  { id: "articles", label: "Artigos" },
+  { id: "others", label: "Outros" },
+];
+
 const state = {
   rows: [],
   filtered: [],
@@ -12,16 +23,20 @@ const state = {
   adminEnabled: false,
   adminToken: localStorage.getItem("admin_api_token") || "",
   editingUuid: null,
+  currentSection: getInitialSection(),
 };
 
 const MAX_CHIPS = 120;
 const PAGE_SIZE = 20;
 
 const els = {
+  pageTitle: document.querySelector("h1"),
   metaLine: document.getElementById("metaLine"),
   resultCount: document.getElementById("resultCount"),
   cards: document.getElementById("cards"),
   pagination: document.getElementById("pagination"),
+  sectionNav: document.getElementById("sectionNav"),
+  sectionLinks: Array.from(document.querySelectorAll(".section-link")),
   searchInput: document.getElementById("searchInput"),
   typeSelect: document.getElementById("typeSelect"),
   authorSelect: document.getElementById("authorSelect"),
@@ -64,6 +79,24 @@ const els = {
   f_auto_tags: document.getElementById("f_auto_tags"),
 };
 
+function getInitialSection() {
+  const section = new URLSearchParams(window.location.search).get("secao") || "all";
+  return normalizeSection(section);
+}
+
+function getSectionLabel(sectionId) {
+  return SECTION_DEFINITIONS.find((item) => item.id === sectionId)?.label || "Tudo";
+}
+
+function normalizeSection(value) {
+  const raw = String(value || "").trim().toLowerCase();
+  return SECTION_DEFINITIONS.some((item) => item.id === raw) ? raw : "all";
+}
+
+function normalizeType(value) {
+  return String(value || "").trim().toLowerCase();
+}
+
 function toList(value) {
   if (!value) return [];
   return String(value)
@@ -78,9 +111,79 @@ function isUuidLike(value) {
   );
 }
 
+function isIllustrationType(type) {
+  return type === "illustration" || type.includes("illustration");
+}
+
+function isSermonType(type) {
+  return type === "sermon" || type.includes("_sermon");
+}
+
+function isSeriesType(type) {
+  return type === "series" || type.includes("_series");
+}
+
+function isQuoteType(type) {
+  return type === "quote" || type === "citation" || type.includes("quote") || type.includes("citation");
+}
+
+function isLiturgyType(type) {
+  return type === "liturgy" || type.includes("liturgy");
+}
+
+function isArticleType(type) {
+  return type === "article" || type.includes("article");
+}
+
+function rowInSection(row, section) {
+  const type = normalizeType(row.content_type);
+  if (section === "all") return true;
+  if (section === "illustrations") return isIllustrationType(type);
+  if (section === "sermons") return isSermonType(type);
+  if (section === "series") return isSeriesType(type);
+  if (section === "quotes") return isQuoteType(type);
+  if (section === "liturgy") return isLiturgyType(type);
+  if (section === "articles") return isArticleType(type);
+  if (section === "others") {
+    return !isIllustrationType(type) && !isSermonType(type) && !isSeriesType(type) && !isQuoteType(type) && !isLiturgyType(type) && !isArticleType(type);
+  }
+  return true;
+}
+
+function updateSectionUi() {
+  const label = getSectionLabel(state.currentSection);
+  els.pageTitle.textContent = `Biblioteca de ${label}`;
+  for (const link of els.sectionLinks) {
+    const isActive = link.dataset.section === state.currentSection;
+    link.classList.toggle("active", isActive);
+  }
+}
+
+function updateSectionInUrl(push = false) {
+  const url = new URL(window.location.href);
+  url.searchParams.set("secao", state.currentSection);
+  if (push) {
+    history.pushState({}, "", url);
+  } else {
+    history.replaceState({}, "", url);
+  }
+}
+
+function setSection(section, push = true) {
+  const normalized = normalizeSection(section);
+  if (state.currentSection === normalized) return;
+  state.currentSection = normalized;
+  state.selectedType = "";
+  els.typeSelect.value = "";
+  updateSectionUi();
+  updateSectionInUrl(push);
+  update(true);
+}
+
 function normalizeRow(row) {
-  const inferredType = row.content_type
-    ? String(row.content_type)
+  const currentType = normalizeType(row.content_type);
+  const inferredType = currentType
+    ? currentType
     : String(row.slug || "").startsWith("sermon-illustrations/")
       ? "illustration"
       : "unknown";
@@ -137,10 +240,12 @@ async function loadDataFromFile() {
   const tryPaths = queryDataPath
     ? [queryDataPath]
     : [
-        "tpw_content_complete.jsonl",
-        "tpw_content_complete.json",
-        "illustrations_complete.jsonl",
-        "illustrations_complete.json",
+        "data/sermoncentral/sermoncentral_complete.jsonl",
+        "data/sermoncentral/sermoncentral_complete.json",
+        "data/tpw/tpw_content_complete.jsonl",
+        "data/tpw/tpw_content_complete.json",
+        "data/legacy/illustrations_complete.jsonl",
+        "data/legacy/illustrations_complete.json",
       ];
 
   for (const path of tryPaths) {
@@ -175,8 +280,13 @@ async function loadData() {
   }
 }
 
+function getRowsInCurrentSection(rows = state.rows) {
+  return rows.filter((row) => rowInSection(row, state.currentSection));
+}
+
 function fillAuthorFilter(rows) {
-  const authors = [...new Set(rows.map((row) => row.author).filter(Boolean))].sort();
+  const sectionRows = getRowsInCurrentSection(rows);
+  const authors = [...new Set(sectionRows.map((row) => row.author).filter(Boolean))].sort();
   els.authorSelect.innerHTML = '<option value="">Todos os autores</option>';
   const fragment = document.createDocumentFragment();
   for (const author of authors) {
@@ -186,6 +296,27 @@ function fillAuthorFilter(rows) {
     fragment.append(option);
   }
   els.authorSelect.append(fragment);
+  if (state.selectedAuthor && !authors.includes(state.selectedAuthor)) {
+    state.selectedAuthor = "";
+    els.authorSelect.value = "";
+  }
+}
+
+function fillTypeFilter(rows) {
+  const types = [...new Set(rows.map((row) => row.content_type).filter(Boolean))].sort();
+  els.typeSelect.innerHTML = '<option value="">Todos os tipos da secao</option>';
+  const fragment = document.createDocumentFragment();
+  for (const type of types) {
+    const option = document.createElement("option");
+    option.value = type;
+    option.textContent = type;
+    fragment.append(option);
+  }
+  els.typeSelect.append(fragment);
+  if (state.selectedType && !types.includes(state.selectedType)) {
+    state.selectedType = "";
+    els.typeSelect.value = "";
+  }
 }
 
 function buildChips(container, values, selectedSet) {
@@ -221,6 +352,7 @@ function applyFilters() {
 
   state.filtered = state.rows
     .filter((row) => {
+      if (!rowInSection(row, state.currentSection)) return false;
       if (state.selectedType && row.content_type !== state.selectedType) return false;
       if (state.selectedAuthor && row.author !== state.selectedAuthor) return false;
       if (state.selectedCategories.size > 0) {
@@ -348,7 +480,7 @@ function renderCards() {
     });
     const link = clone.querySelector(".card-link");
     link.href = row.url || "#";
-    link.textContent = row.url ? "Abrir no site" : "Sem URL";
+    link.textContent = row.url ? "Abrir link externo" : "Sem URL";
     link.addEventListener("click", (event) => event.stopPropagation());
     card.addEventListener("click", () => openStoryModal(row));
     fragment.append(clone);
@@ -359,22 +491,42 @@ function renderCards() {
 
 function updateCounters() {
   const totalPages = Math.max(1, Math.ceil(state.filtered.length / PAGE_SIZE));
-  els.resultCount.textContent = `${state.filtered.length} resultados | pagina ${state.currentPage} de ${totalPages}`;
+  const sectionLabel = getSectionLabel(state.currentSection);
+  els.resultCount.textContent = `${state.filtered.length} resultados em ${sectionLabel} | pagina ${state.currentPage} de ${totalPages}`;
+}
+
+function updateMetaLine() {
+  const sectionRows = getRowsInCurrentSection();
+  els.metaLine.textContent = `${state.rows.length.toLocaleString("pt-BR")} historias carregadas | ${sectionRows.length.toLocaleString("pt-BR")} na secao atual.`;
 }
 
 function update(resetPage = true) {
   if (resetPage) state.currentPage = 1;
+  const sectionRows = getRowsInCurrentSection();
+  fillTypeFilter(sectionRows);
+  fillAuthorFilter(state.rows);
   applyFilters();
-  const activeCategories = [...new Set(state.rows.flatMap((row) => row.categories_list))]
+  const activeCategories = [...new Set(sectionRows.flatMap((row) => row.categories_list))]
     .filter(Boolean)
     .sort((a, b) => a.localeCompare(b));
   buildChips(els.categoryChips, activeCategories, state.selectedCategories);
-  const activeTags = [...new Set(state.rows.flatMap((row) => row.auto_tags_list))]
+  const activeTags = [...new Set(sectionRows.flatMap((row) => row.auto_tags_list))]
     .filter(Boolean)
     .sort((a, b) => a.localeCompare(b));
   buildChips(els.tagChips, activeTags, state.selectedTags);
   renderCards();
   updateCounters();
+  updateMetaLine();
+}
+
+function getDefaultEditorType() {
+  if (state.currentSection === "illustrations") return "illustration";
+  if (state.currentSection === "sermons") return "sermon";
+  if (state.currentSection === "series") return "series";
+  if (state.currentSection === "quotes") return "quote";
+  if (state.currentSection === "liturgy") return "liturgy";
+  if (state.currentSection === "articles") return "article";
+  return "illustration";
 }
 
 function openEditor(row = null) {
@@ -382,7 +534,7 @@ function openEditor(row = null) {
   els.editorTitle.textContent = row ? "Editar historia" : "Nova historia";
   els.f_title.value = row?.title || "";
   els.f_slug.value = row?.slug || "";
-  els.f_content_type.value = row?.content_type || "illustration";
+  els.f_content_type.value = row?.content_type || getDefaultEditorType();
   els.f_source_component.value = row?.source_component || "";
   els.f_author.value = row?.author || "";
   els.f_url.value = row?.url || "";
@@ -469,12 +621,26 @@ async function deleteStory() {
 async function refreshData() {
   const rows = await loadData();
   state.rows = rows;
-  fillAuthorFilter(rows);
-  els.metaLine.textContent = `${rows.length.toLocaleString("pt-BR")} historias carregadas.`;
+  updateSectionUi();
+  updateSectionInUrl(false);
   update(true);
 }
 
 function wireEvents() {
+  els.sectionLinks.forEach((link) => {
+    link.addEventListener("click", (event) => {
+      event.preventDefault();
+      setSection(link.dataset.section, true);
+    });
+  });
+
+  window.addEventListener("popstate", () => {
+    const section = new URLSearchParams(window.location.search).get("secao") || "all";
+    state.currentSection = normalizeSection(section);
+    updateSectionUi();
+    update(true);
+  });
+
   els.searchInput.addEventListener("input", (event) => {
     state.search = event.target.value;
     update(true);
@@ -538,6 +704,7 @@ async function boot() {
   try {
     state.adminEnabled = !!state.adminToken;
     setAdminUi();
+    updateSectionUi();
     wireEvents();
     await refreshData();
   } catch (error) {
