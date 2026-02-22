@@ -12,6 +12,8 @@
 const state = {
   rows: [],
   filtered: [],
+  totalRows: 0,
+  dataMode: "api",
   selectedCategories: new Set(),
   selectedTags: new Set(),
   selectedType: "",
@@ -24,6 +26,7 @@ const state = {
   adminToken: localStorage.getItem("admin_api_token") || "",
   editingUuid: null,
   currentSection: getInitialSection(),
+  detailCache: new Map(),
 };
 
 const MAX_CHIPS = 120;
@@ -174,10 +177,18 @@ function setSection(section, push = true) {
   if (state.currentSection === normalized) return;
   state.currentSection = normalized;
   state.selectedType = "";
+  state.selectedAuthor = "";
+  state.selectedCategories.clear();
+  state.selectedTags.clear();
+  state.search = "";
+  state.currentPage = 1;
+  els.searchInput.value = "";
   els.typeSelect.value = "";
+  els.authorSelect.value = "";
   updateSectionUi();
   updateSectionInUrl(push);
-  update(true);
+  if (state.dataMode === "api") refreshData();
+  else update(true);
 }
 
 function normalizeRow(row) {
@@ -229,10 +240,26 @@ async function apiFetch(path, options = {}) {
   return data;
 }
 
+function buildApiQuery() {
+  const params = new URLSearchParams();
+  params.set("limit", String(PAGE_SIZE));
+  params.set("offset", String((state.currentPage - 1) * PAGE_SIZE));
+  params.set("section", state.currentSection);
+  params.set("sort", state.sort);
+  if (state.selectedType) params.set("content_type", state.selectedType);
+  if (state.selectedAuthor) params.set("author", state.selectedAuthor);
+  if (state.search.trim()) params.set("search", state.search.trim());
+  return params.toString();
+}
+
 async function loadDataFromApi() {
-  const data = await apiFetch("/api/contents?limit=20000");
+  const data = await apiFetch(`/api/contents?${buildApiQuery()}`);
   if (!Array.isArray(data?.rows)) throw new Error("Resposta invalida da API.");
-  return data.rows.map(normalizeRow);
+  return {
+    mode: "api",
+    rows: data.rows.map(normalizeRow),
+    total: Number.isFinite(Number(data?.total)) ? Number(data.total) : data.rows.length,
+  };
 }
 
 async function loadDataFromFile() {
@@ -276,7 +303,8 @@ async function loadData() {
     return await loadDataFromApi();
   } catch (error) {
     console.warn("API indisponivel. Usando arquivos locais.", error);
-    return loadDataFromFile();
+    const rows = await loadDataFromFile();
+    return { mode: "file", rows, total: rows.length };
   }
 }
 
@@ -297,8 +325,18 @@ function fillAuthorFilter(rows) {
   }
   els.authorSelect.append(fragment);
   if (state.selectedAuthor && !authors.includes(state.selectedAuthor)) {
-    state.selectedAuthor = "";
-    els.authorSelect.value = "";
+    if (state.dataMode === "api") {
+      const opt = document.createElement("option");
+      opt.value = state.selectedAuthor;
+      opt.textContent = state.selectedAuthor;
+      els.authorSelect.append(opt);
+      els.authorSelect.value = state.selectedAuthor;
+    } else {
+      state.selectedAuthor = "";
+      els.authorSelect.value = "";
+    }
+  } else {
+    els.authorSelect.value = state.selectedAuthor || "";
   }
 }
 
@@ -314,8 +352,18 @@ function fillTypeFilter(rows) {
   }
   els.typeSelect.append(fragment);
   if (state.selectedType && !types.includes(state.selectedType)) {
-    state.selectedType = "";
-    els.typeSelect.value = "";
+    if (state.dataMode === "api") {
+      const opt = document.createElement("option");
+      opt.value = state.selectedType;
+      opt.textContent = state.selectedType;
+      els.typeSelect.append(opt);
+      els.typeSelect.value = state.selectedType;
+    } else {
+      state.selectedType = "";
+      els.typeSelect.value = "";
+    }
+  } else {
+    els.typeSelect.value = state.selectedType || "";
   }
 }
 
@@ -350,23 +398,25 @@ function bySort(a, b) {
 function applyFilters() {
   const query = state.search.trim().toLowerCase();
 
-  state.filtered = state.rows
-    .filter((row) => {
+  const base = state.rows.filter((row) => {
+    if (state.dataMode === "file") {
       if (!rowInSection(row, state.currentSection)) return false;
       if (state.selectedType && row.content_type !== state.selectedType) return false;
       if (state.selectedAuthor && row.author !== state.selectedAuthor) return false;
-      if (state.selectedCategories.size > 0) {
-        const hasCategory = row.categories_list.some((item) => state.selectedCategories.has(item));
-        if (!hasCategory) return false;
-      }
-      if (state.selectedTags.size > 0) {
-        const hasTag = row.auto_tags_list.some((item) => state.selectedTags.has(item));
-        if (!hasTag) return false;
-      }
       if (query && !row.searchable.includes(query)) return false;
-      return true;
-    })
-    .sort(bySort);
+    }
+    if (state.selectedCategories.size > 0) {
+      const hasCategory = row.categories_list.some((item) => state.selectedCategories.has(item));
+      if (!hasCategory) return false;
+    }
+    if (state.selectedTags.size > 0) {
+      const hasTag = row.auto_tags_list.some((item) => state.selectedTags.has(item));
+      if (!hasTag) return false;
+    }
+    return true;
+  });
+
+  state.filtered = state.dataMode === "file" ? base.sort(bySort) : base;
 }
 
 function setAdminUi() {
@@ -377,21 +427,37 @@ function setAdminUi() {
   els.adminModeBtn.textContent = state.adminEnabled ? "Admin ativo" : "Modo admin";
 }
 
-function openStoryModal(row) {
-  state.activeRow = row;
-  els.modalTitle.textContent = row.title || "Sem titulo";
+async function hydrateRow(row) {
+  if (!row?.uuid || state.dataMode !== "api") return row;
+  if (state.detailCache.has(row.uuid)) return state.detailCache.get(row.uuid);
+  const data = await apiFetch(`/api/contents/${encodeURIComponent(row.uuid)}`);
+  const full = data?.row ? normalizeRow(data.row) : row;
+  state.detailCache.set(row.uuid, full);
+  return full;
+}
+
+async function openStoryModal(row) {
+  let fullRow = row;
+  try {
+    fullRow = await hydrateRow(row);
+  } catch (error) {
+    console.warn("Falha ao carregar detalhe completo.", error);
+  }
+  state.activeRow = fullRow;
+  const active = fullRow || row;
+  els.modalTitle.textContent = active.title || "Sem titulo";
   const pieces = [];
-  if (row.content_type) pieces.push(`Tipo: ${row.content_type}`);
-  if (row.author) pieces.push(`Autor: ${row.author}`);
-  if (row.published_at) pieces.push(`Publicado em: ${new Date(row.published_at).toLocaleDateString("pt-BR")}`);
-  if (row.categories) pieces.push(`Categorias: ${row.categories}`);
-  if (row.auto_tags) pieces.push(`Tags: ${row.auto_tags}`);
+  if (active.content_type) pieces.push(`Tipo: ${active.content_type}`);
+  if (active.author) pieces.push(`Autor: ${active.author}`);
+  if (active.published_at) pieces.push(`Publicado em: ${new Date(active.published_at).toLocaleDateString("pt-BR")}`);
+  if (active.categories) pieces.push(`Categorias: ${active.categories}`);
+  if (active.auto_tags) pieces.push(`Tags: ${active.auto_tags}`);
   els.modalMeta.textContent = pieces.join(" | ");
-  els.modalSummary.textContent = row.summary?.trim() ? row.summary.trim() : "";
-  const fullText = row.body_text?.trim() || row.ai_text?.trim() || "Sem conteudo textual completo.";
+  els.modalSummary.textContent = active.summary?.trim() ? active.summary.trim() : "";
+  const fullText = active.body_text?.trim() || active.ai_text?.trim() || "Sem conteudo textual completo.";
   els.modalBodyText.textContent = fullText;
-  if (row.url) {
-    els.modalSourceLink.href = row.url;
+  if (active.url) {
+    els.modalSourceLink.href = active.url;
     els.modalSourceLink.style.display = "inline-flex";
   } else {
     els.modalSourceLink.removeAttribute("href");
@@ -408,10 +474,11 @@ function renderPagination(totalPages) {
   prev.className = "page-btn";
   prev.textContent = "Anterior";
   prev.disabled = state.currentPage === 1;
-  prev.addEventListener("click", () => {
+  prev.addEventListener("click", async () => {
     if (state.currentPage > 1) {
       state.currentPage -= 1;
-      update(false);
+      if (state.dataMode === "api") await refreshData();
+      else update(false);
     }
   });
   fragment.append(prev);
@@ -423,9 +490,10 @@ function renderPagination(totalPages) {
     const btn = document.createElement("button");
     btn.className = `page-btn${page === state.currentPage ? " active" : ""}`;
     btn.textContent = String(page);
-    btn.addEventListener("click", () => {
+    btn.addEventListener("click", async () => {
       state.currentPage = page;
-      update(false);
+      if (state.dataMode === "api") await refreshData();
+      else update(false);
     });
     fragment.append(btn);
   }
@@ -433,10 +501,11 @@ function renderPagination(totalPages) {
   next.className = "page-btn";
   next.textContent = "Proxima";
   next.disabled = state.currentPage === totalPages;
-  next.addEventListener("click", () => {
+  next.addEventListener("click", async () => {
     if (state.currentPage < totalPages) {
       state.currentPage += 1;
-      update(false);
+      if (state.dataMode === "api") await refreshData();
+      else update(false);
     }
   });
   fragment.append(next);
@@ -453,12 +522,17 @@ function renderCards() {
     els.cards.append(empty);
     return;
   }
-  const totalPages = Math.max(1, Math.ceil(state.filtered.length / PAGE_SIZE));
+  const totalPages =
+    state.dataMode === "api"
+      ? Math.max(1, Math.ceil(state.totalRows / PAGE_SIZE))
+      : Math.max(1, Math.ceil(state.filtered.length / PAGE_SIZE));
   if (state.currentPage > totalPages) state.currentPage = totalPages;
-  const start = (state.currentPage - 1) * PAGE_SIZE;
-  const end = start + PAGE_SIZE;
+  const visibleRows =
+    state.dataMode === "api"
+      ? state.filtered
+      : state.filtered.slice((state.currentPage - 1) * PAGE_SIZE, (state.currentPage - 1) * PAGE_SIZE + PAGE_SIZE);
   const fragment = document.createDocumentFragment();
-  for (const [index, row] of state.filtered.slice(start, end).entries()) {
+  for (const [index, row] of visibleRows.entries()) {
     const clone = els.cardTemplate.content.cloneNode(true);
     const card = clone.querySelector(".card");
     card.style.animationDelay = `${Math.min(index * 16, 320)}ms`;
@@ -482,7 +556,7 @@ function renderCards() {
     link.href = row.url || "#";
     link.textContent = row.url ? "Abrir link externo" : "Sem URL";
     link.addEventListener("click", (event) => event.stopPropagation());
-    card.addEventListener("click", () => openStoryModal(row));
+    card.addEventListener("click", async () => openStoryModal(row));
     fragment.append(clone);
   }
   els.cards.append(fragment);
@@ -490,12 +564,17 @@ function renderCards() {
 }
 
 function updateCounters() {
-  const totalPages = Math.max(1, Math.ceil(state.filtered.length / PAGE_SIZE));
+  const currentTotal = state.dataMode === "api" ? state.totalRows : state.filtered.length;
+  const totalPages = Math.max(1, Math.ceil(currentTotal / PAGE_SIZE));
   const sectionLabel = getSectionLabel(state.currentSection);
-  els.resultCount.textContent = `${state.filtered.length} resultados em ${sectionLabel} | pagina ${state.currentPage} de ${totalPages}`;
+  els.resultCount.textContent = `${currentTotal} resultados em ${sectionLabel} | pagina ${state.currentPage} de ${totalPages}`;
 }
 
 function updateMetaLine() {
+  if (state.dataMode === "api") {
+    els.metaLine.textContent = `${state.totalRows.toLocaleString("pt-BR")} historias na secao atual (pagina ${state.currentPage}).`;
+    return;
+  }
   const sectionRows = getRowsInCurrentSection();
   els.metaLine.textContent = `${state.rows.length.toLocaleString("pt-BR")} historias carregadas | ${sectionRows.length.toLocaleString("pt-BR")} na secao atual.`;
 }
@@ -619,10 +698,13 @@ async function deleteStory() {
 }
 
 async function refreshData() {
-  const rows = await loadData();
-  state.rows = rows;
+  const payload = await loadData();
+  state.dataMode = payload.mode;
+  state.rows = payload.rows || [];
+  state.totalRows = Number(payload.total || 0);
   updateSectionUi();
   updateSectionInUrl(false);
+  state.detailCache.clear();
   update(true);
 }
 
@@ -638,24 +720,38 @@ function wireEvents() {
     const section = new URLSearchParams(window.location.search).get("secao") || "all";
     state.currentSection = normalizeSection(section);
     updateSectionUi();
-    update(true);
+    state.currentPage = 1;
+    if (state.dataMode === "api") refreshData();
+    else update(true);
   });
 
+  let searchTimer = null;
   els.searchInput.addEventListener("input", (event) => {
     state.search = event.target.value;
-    update(true);
+    if (searchTimer) clearTimeout(searchTimer);
+    searchTimer = setTimeout(() => {
+      state.currentPage = 1;
+      if (state.dataMode === "api") refreshData();
+      else update(true);
+    }, 280);
   });
   els.typeSelect.addEventListener("change", (event) => {
     state.selectedType = event.target.value;
-    update(true);
+    state.currentPage = 1;
+    if (state.dataMode === "api") refreshData();
+    else update(true);
   });
   els.authorSelect.addEventListener("change", (event) => {
     state.selectedAuthor = event.target.value;
-    update(true);
+    state.currentPage = 1;
+    if (state.dataMode === "api") refreshData();
+    else update(true);
   });
   els.sortSelect.addEventListener("change", (event) => {
     state.sort = event.target.value;
-    update(true);
+    state.currentPage = 1;
+    if (state.dataMode === "api") refreshData();
+    else update(true);
   });
   els.clearFiltersBtn.addEventListener("click", () => {
     state.search = "";
@@ -668,7 +764,9 @@ function wireEvents() {
     els.typeSelect.value = "";
     els.authorSelect.value = "";
     els.sortSelect.value = "recent";
-    update(true);
+    state.currentPage = 1;
+    if (state.dataMode === "api") refreshData();
+    else update(true);
   });
   els.closeModalBtn.addEventListener("click", () => els.storyModal.close());
   els.storyModal.addEventListener("click", (event) => {
