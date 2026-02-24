@@ -18,6 +18,8 @@ create table if not exists public.ilustracaoes_de_sermoes (
   bible_references text,
   keywords text,
   auto_tags text,
+  content_tags text,
+  bible_text_refs text,
   lang text,
   published_at timestamptz,
   updated_at timestamptz,

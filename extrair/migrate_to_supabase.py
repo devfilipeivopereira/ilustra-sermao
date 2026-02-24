@@ -49,6 +49,8 @@ def row_to_payload(row: Dict) -> Dict:
         "bible_references": row.get("bible_references"),
         "keywords": row.get("keywords"),
         "auto_tags": row.get("auto_tags"),
+        "content_tags": row.get("content_tags"),
+        "bible_text_refs": row.get("bible_text_refs"),
         "lang": row.get("lang"),
         "published_at": parse_iso(row.get("published_at")),
         "updated_at": parse_iso(row.get("updated_at")),

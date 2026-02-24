@@ -58,7 +58,7 @@ module.exports = async function handler(req, res) {
       const params = new URLSearchParams();
       params.set(
         "select",
-        "uuid,slug,url,content_type,source_component,title,author,summary,categories,top_level_categories,auto_tags,lang,published_at,updated_at,created_at"
+        "uuid,slug,url,content_type,source_component,title,author,summary,categories,top_level_categories,auto_tags,content_tags,bible_text_refs,lang,published_at,updated_at,created_at"
       );
       params.set("offset", String(offset));
       params.set("limit", String(limit));
@@ -69,7 +69,7 @@ module.exports = async function handler(req, res) {
       if (search) {
         params.set(
           "or",
-          `title.ilike.*${search}*,summary.ilike.*${search}*,author.ilike.*${search}*,categories.ilike.*${search}*,auto_tags.ilike.*${search}*`
+          `title.ilike.*${search}*,summary.ilike.*${search}*,author.ilike.*${search}*,categories.ilike.*${search}*,auto_tags.ilike.*${search}*,content_tags.ilike.*${search}*,bible_text_refs.ilike.*${search}*`
         );
       }
 

@@ -35,6 +35,8 @@ function sanitizeRecord(input = {}) {
     "bible_references",
     "keywords",
     "auto_tags",
+    "content_tags",
+    "bible_text_refs",
   ];
   for (const field of csvFields) {
     if (field in out) out[field] = normalizeCsvLike(out[field]);
