@@ -24,3 +24,6 @@ data/*
 # Keep source docs and configs
 !*.md
 !*.json
+sermoncentral_complete.json
+"ultima extração/"
+ultima_extracao/

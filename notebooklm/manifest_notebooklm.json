@@ -1,0 +1,4142 @@
+{
+  "source_table": "ilustracaoes_de_sermoes",
+  "total_rows": 29286,
+  "limit_words_per_file": 38000,
+  "parts": [
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_001.csv",
+      "rows": 42,
+      "approx_words": 36366
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_002.csv",
+      "rows": 38,
+      "approx_words": 37951
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_003.csv",
+      "rows": 34,
+      "approx_words": 36511
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_004.csv",
+      "rows": 38,
+      "approx_words": 35214
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_005.csv",
+      "rows": 28,
+      "approx_words": 35951
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_006.csv",
+      "rows": 32,
+      "approx_words": 35605
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_007.csv",
+      "rows": 36,
+      "approx_words": 36510
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_008.csv",
+      "rows": 48,
+      "approx_words": 36964
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_009.csv",
+      "rows": 31,
+      "approx_words": 36983
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_010.csv",
+      "rows": 24,
+      "approx_words": 37862
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_011.csv",
+      "rows": 34,
+      "approx_words": 36587
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_012.csv",
+      "rows": 34,
+      "approx_words": 36598
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_013.csv",
+      "rows": 34,
+      "approx_words": 37472
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_014.csv",
+      "rows": 45,
+      "approx_words": 35160
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_015.csv",
+      "rows": 26,
+      "approx_words": 37556
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_016.csv",
+      "rows": 36,
+      "approx_words": 37641
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_017.csv",
+      "rows": 52,
+      "approx_words": 35888
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_018.csv",
+      "rows": 37,
+      "approx_words": 37075
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_019.csv",
+      "rows": 28,
+      "approx_words": 37617
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_020.csv",
+      "rows": 34,
+      "approx_words": 37908
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_021.csv",
+      "rows": 29,
+      "approx_words": 35205
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_022.csv",
+      "rows": 30,
+      "approx_words": 37962
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_023.csv",
+      "rows": 42,
+      "approx_words": 37884
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_024.csv",
+      "rows": 35,
+      "approx_words": 35985
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_025.csv",
+      "rows": 32,
+      "approx_words": 35986
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_026.csv",
+      "rows": 29,
+      "approx_words": 37354
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_027.csv",
+      "rows": 44,
+      "approx_words": 37991
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_028.csv",
+      "rows": 25,
+      "approx_words": 37944
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_029.csv",
+      "rows": 32,
+      "approx_words": 36425
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_030.csv",
+      "rows": 41,
+      "approx_words": 37980
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_031.csv",
+      "rows": 40,
+      "approx_words": 37925
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_032.csv",
+      "rows": 37,
+      "approx_words": 36603
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_033.csv",
+      "rows": 37,
+      "approx_words": 37576
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_034.csv",
+      "rows": 28,
+      "approx_words": 35175
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_035.csv",
+      "rows": 26,
+      "approx_words": 36119
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_036.csv",
+      "rows": 51,
+      "approx_words": 37229
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_037.csv",
+      "rows": 35,
+      "approx_words": 37699
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_038.csv",
+      "rows": 46,
+      "approx_words": 37941
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_039.csv",
+      "rows": 39,
+      "approx_words": 36855
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_040.csv",
+      "rows": 42,
+      "approx_words": 36520
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_041.csv",
+      "rows": 31,
+      "approx_words": 37077
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_042.csv",
+      "rows": 37,
+      "approx_words": 36828
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_043.csv",
+      "rows": 38,
+      "approx_words": 37946
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_044.csv",
+      "rows": 33,
+      "approx_words": 37849
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_045.csv",
+      "rows": 35,
+      "approx_words": 36723
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_046.csv",
+      "rows": 33,
+      "approx_words": 37700
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_047.csv",
+      "rows": 47,
+      "approx_words": 36763
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_048.csv",
+      "rows": 39,
+      "approx_words": 37358
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_049.csv",
+      "rows": 34,
+      "approx_words": 37834
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_050.csv",
+      "rows": 33,
+      "approx_words": 37565
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_051.csv",
+      "rows": 37,
+      "approx_words": 36376
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_052.csv",
+      "rows": 34,
+      "approx_words": 35354
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_053.csv",
+      "rows": 35,
+      "approx_words": 36936
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_054.csv",
+      "rows": 34,
+      "approx_words": 37886
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_055.csv",
+      "rows": 30,
+      "approx_words": 35727
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_056.csv",
+      "rows": 27,
+      "approx_words": 36060
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_057.csv",
+      "rows": 39,
+      "approx_words": 36596
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_058.csv",
+      "rows": 46,
+      "approx_words": 37724
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_059.csv",
+      "rows": 26,
+      "approx_words": 37878
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_060.csv",
+      "rows": 35,
+      "approx_words": 36116
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_061.csv",
+      "rows": 36,
+      "approx_words": 36276
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_062.csv",
+      "rows": 43,
+      "approx_words": 37643
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_063.csv",
+      "rows": 39,
+      "approx_words": 37709
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_064.csv",
+      "rows": 50,
+      "approx_words": 37857
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_065.csv",
+      "rows": 47,
+      "approx_words": 37439
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_066.csv",
+      "rows": 46,
+      "approx_words": 36994
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_067.csv",
+      "rows": 38,
+      "approx_words": 36898
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_068.csv",
+      "rows": 32,
+      "approx_words": 34199
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_069.csv",
+      "rows": 42,
+      "approx_words": 36160
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_070.csv",
+      "rows": 27,
+      "approx_words": 37512
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_071.csv",
+      "rows": 30,
+      "approx_words": 36085
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_072.csv",
+      "rows": 32,
+      "approx_words": 35791
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_073.csv",
+      "rows": 28,
+      "approx_words": 37113
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_074.csv",
+      "rows": 38,
+      "approx_words": 37975
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_075.csv",
+      "rows": 44,
+      "approx_words": 35453
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_076.csv",
+      "rows": 43,
+      "approx_words": 36597
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_077.csv",
+      "rows": 39,
+      "approx_words": 36596
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_078.csv",
+      "rows": 40,
+      "approx_words": 37672
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_079.csv",
+      "rows": 40,
+      "approx_words": 37968
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_080.csv",
+      "rows": 45,
+      "approx_words": 36867
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_081.csv",
+      "rows": 39,
+      "approx_words": 37355
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_082.csv",
+      "rows": 34,
+      "approx_words": 37725
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_083.csv",
+      "rows": 38,
+      "approx_words": 37927
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_084.csv",
+      "rows": 39,
+      "approx_words": 37510
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_085.csv",
+      "rows": 39,
+      "approx_words": 36762
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_086.csv",
+      "rows": 30,
+      "approx_words": 37436
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_087.csv",
+      "rows": 35,
+      "approx_words": 36946
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_088.csv",
+      "rows": 37,
+      "approx_words": 36233
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_089.csv",
+      "rows": 25,
+      "approx_words": 37057
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_090.csv",
+      "rows": 29,
+      "approx_words": 35302
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_091.csv",
+      "rows": 26,
+      "approx_words": 36291
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_092.csv",
+      "rows": 21,
+      "approx_words": 36465
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_093.csv",
+      "rows": 35,
+      "approx_words": 37428
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_094.csv",
+      "rows": 30,
+      "approx_words": 36944
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_095.csv",
+      "rows": 37,
+      "approx_words": 37447
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_096.csv",
+      "rows": 25,
+      "approx_words": 37493
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_097.csv",
+      "rows": 33,
+      "approx_words": 35987
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_098.csv",
+      "rows": 25,
+      "approx_words": 37838
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_099.csv",
+      "rows": 53,
+      "approx_words": 37995
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_100.csv",
+      "rows": 44,
+      "approx_words": 36214
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_101.csv",
+      "rows": 33,
+      "approx_words": 36641
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_102.csv",
+      "rows": 32,
+      "approx_words": 36083
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_103.csv",
+      "rows": 56,
+      "approx_words": 37532
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_104.csv",
+      "rows": 38,
+      "approx_words": 37131
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_105.csv",
+      "rows": 45,
+      "approx_words": 36033
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_106.csv",
+      "rows": 40,
+      "approx_words": 36165
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_107.csv",
+      "rows": 37,
+      "approx_words": 36020
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_108.csv",
+      "rows": 32,
+      "approx_words": 37259
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_109.csv",
+      "rows": 48,
+      "approx_words": 35601
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_110.csv",
+      "rows": 36,
+      "approx_words": 37233
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_111.csv",
+      "rows": 54,
+      "approx_words": 37991
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_112.csv",
+      "rows": 33,
+      "approx_words": 37111
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_113.csv",
+      "rows": 40,
+      "approx_words": 37835
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_114.csv",
+      "rows": 38,
+      "approx_words": 36530
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_115.csv",
+      "rows": 39,
+      "approx_words": 37298
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_116.csv",
+      "rows": 29,
+      "approx_words": 36899
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_117.csv",
+      "rows": 40,
+      "approx_words": 36310
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_118.csv",
+      "rows": 38,
+      "approx_words": 37064
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_119.csv",
+      "rows": 31,
+      "approx_words": 34970
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_120.csv",
+      "rows": 41,
+      "approx_words": 37790
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_121.csv",
+      "rows": 33,
+      "approx_words": 35899
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_122.csv",
+      "rows": 36,
+      "approx_words": 36454
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_123.csv",
+      "rows": 35,
+      "approx_words": 37946
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_124.csv",
+      "rows": 32,
+      "approx_words": 37468
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_125.csv",
+      "rows": 41,
+      "approx_words": 37500
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_126.csv",
+      "rows": 37,
+      "approx_words": 37885
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_127.csv",
+      "rows": 45,
+      "approx_words": 37391
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_128.csv",
+      "rows": 38,
+      "approx_words": 36116
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_129.csv",
+      "rows": 36,
+      "approx_words": 36880
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_130.csv",
+      "rows": 32,
+      "approx_words": 37145
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_131.csv",
+      "rows": 45,
+      "approx_words": 37899
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_132.csv",
+      "rows": 35,
+      "approx_words": 35880
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_133.csv",
+      "rows": 38,
+      "approx_words": 35739
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_134.csv",
+      "rows": 36,
+      "approx_words": 37389
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_135.csv",
+      "rows": 26,
+      "approx_words": 36349
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_136.csv",
+      "rows": 41,
+      "approx_words": 37974
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_137.csv",
+      "rows": 33,
+      "approx_words": 37891
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_138.csv",
+      "rows": 28,
+      "approx_words": 34891
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_139.csv",
+      "rows": 31,
+      "approx_words": 37348
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_140.csv",
+      "rows": 34,
+      "approx_words": 36586
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_141.csv",
+      "rows": 42,
+      "approx_words": 37208
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_142.csv",
+      "rows": 39,
+      "approx_words": 37550
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_143.csv",
+      "rows": 45,
+      "approx_words": 37655
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_144.csv",
+      "rows": 34,
+      "approx_words": 37662
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_145.csv",
+      "rows": 29,
+      "approx_words": 36137
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_146.csv",
+      "rows": 31,
+      "approx_words": 36476
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_147.csv",
+      "rows": 39,
+      "approx_words": 36333
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_148.csv",
+      "rows": 30,
+      "approx_words": 36523
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_149.csv",
+      "rows": 37,
+      "approx_words": 36223
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_150.csv",
+      "rows": 32,
+      "approx_words": 37199
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_151.csv",
+      "rows": 38,
+      "approx_words": 37745
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_152.csv",
+      "rows": 28,
+      "approx_words": 37868
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_153.csv",
+      "rows": 35,
+      "approx_words": 32596
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_154.csv",
+      "rows": 37,
+      "approx_words": 37277
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_155.csv",
+      "rows": 32,
+      "approx_words": 37171
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_156.csv",
+      "rows": 37,
+      "approx_words": 36493
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_157.csv",
+      "rows": 38,
+      "approx_words": 36697
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_158.csv",
+      "rows": 31,
+      "approx_words": 36893
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_159.csv",
+      "rows": 38,
+      "approx_words": 37939
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_160.csv",
+      "rows": 31,
+      "approx_words": 37946
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_161.csv",
+      "rows": 29,
+      "approx_words": 37763
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_162.csv",
+      "rows": 38,
+      "approx_words": 36843
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_163.csv",
+      "rows": 40,
+      "approx_words": 37986
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_164.csv",
+      "rows": 41,
+      "approx_words": 36089
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_165.csv",
+      "rows": 46,
+      "approx_words": 37902
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_166.csv",
+      "rows": 40,
+      "approx_words": 37932
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_167.csv",
+      "rows": 33,
+      "approx_words": 37077
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_168.csv",
+      "rows": 39,
+      "approx_words": 37902
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_169.csv",
+      "rows": 38,
+      "approx_words": 37465
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_170.csv",
+      "rows": 34,
+      "approx_words": 36611
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_171.csv",
+      "rows": 42,
+      "approx_words": 36752
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_172.csv",
+      "rows": 34,
+      "approx_words": 37629
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_173.csv",
+      "rows": 43,
+      "approx_words": 37930
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_174.csv",
+      "rows": 44,
+      "approx_words": 36494
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_175.csv",
+      "rows": 32,
+      "approx_words": 36806
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_176.csv",
+      "rows": 35,
+      "approx_words": 35729
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_177.csv",
+      "rows": 30,
+      "approx_words": 37961
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_178.csv",
+      "rows": 37,
+      "approx_words": 35051
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_179.csv",
+      "rows": 32,
+      "approx_words": 37885
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_180.csv",
+      "rows": 43,
+      "approx_words": 36432
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_181.csv",
+      "rows": 41,
+      "approx_words": 36878
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_182.csv",
+      "rows": 31,
+      "approx_words": 35961
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_183.csv",
+      "rows": 40,
+      "approx_words": 36142
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_184.csv",
+      "rows": 26,
+      "approx_words": 37218
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_185.csv",
+      "rows": 37,
+      "approx_words": 37242
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_186.csv",
+      "rows": 33,
+      "approx_words": 37538
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_187.csv",
+      "rows": 47,
+      "approx_words": 36037
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_188.csv",
+      "rows": 35,
+      "approx_words": 37493
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_189.csv",
+      "rows": 34,
+      "approx_words": 35847
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_190.csv",
+      "rows": 38,
+      "approx_words": 37522
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_191.csv",
+      "rows": 49,
+      "approx_words": 35312
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_192.csv",
+      "rows": 37,
+      "approx_words": 36957
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_193.csv",
+      "rows": 45,
+      "approx_words": 33629
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_194.csv",
+      "rows": 31,
+      "approx_words": 36592
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_195.csv",
+      "rows": 26,
+      "approx_words": 35529
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_196.csv",
+      "rows": 37,
+      "approx_words": 36649
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_197.csv",
+      "rows": 27,
+      "approx_words": 36850
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_198.csv",
+      "rows": 39,
+      "approx_words": 37780
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_199.csv",
+      "rows": 46,
+      "approx_words": 36640
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_200.csv",
+      "rows": 44,
+      "approx_words": 37276
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_201.csv",
+      "rows": 36,
+      "approx_words": 35170
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_202.csv",
+      "rows": 30,
+      "approx_words": 36382
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_203.csv",
+      "rows": 38,
+      "approx_words": 35652
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_204.csv",
+      "rows": 41,
+      "approx_words": 37896
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_205.csv",
+      "rows": 25,
+      "approx_words": 36502
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_206.csv",
+      "rows": 34,
+      "approx_words": 37965
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_207.csv",
+      "rows": 41,
+      "approx_words": 37961
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_208.csv",
+      "rows": 42,
+      "approx_words": 36569
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_209.csv",
+      "rows": 29,
+      "approx_words": 37201
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_210.csv",
+      "rows": 31,
+      "approx_words": 36488
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_211.csv",
+      "rows": 31,
+      "approx_words": 37217
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_212.csv",
+      "rows": 37,
+      "approx_words": 37215
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_213.csv",
+      "rows": 25,
+      "approx_words": 36575
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_214.csv",
+      "rows": 34,
+      "approx_words": 37364
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_215.csv",
+      "rows": 25,
+      "approx_words": 36408
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_216.csv",
+      "rows": 30,
+      "approx_words": 37031
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_217.csv",
+      "rows": 37,
+      "approx_words": 37112
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_218.csv",
+      "rows": 34,
+      "approx_words": 37139
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_219.csv",
+      "rows": 34,
+      "approx_words": 37740
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_220.csv",
+      "rows": 46,
+      "approx_words": 35951
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_221.csv",
+      "rows": 43,
+      "approx_words": 36162
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_222.csv",
+      "rows": 39,
+      "approx_words": 35582
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_223.csv",
+      "rows": 35,
+      "approx_words": 37731
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_224.csv",
+      "rows": 37,
+      "approx_words": 37370
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_225.csv",
+      "rows": 38,
+      "approx_words": 36304
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_226.csv",
+      "rows": 30,
+      "approx_words": 35164
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_227.csv",
+      "rows": 33,
+      "approx_words": 37470
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_228.csv",
+      "rows": 46,
+      "approx_words": 37110
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_229.csv",
+      "rows": 41,
+      "approx_words": 34502
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_230.csv",
+      "rows": 34,
+      "approx_words": 36342
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_231.csv",
+      "rows": 33,
+      "approx_words": 37405
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_232.csv",
+      "rows": 41,
+      "approx_words": 37876
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_233.csv",
+      "rows": 36,
+      "approx_words": 36654
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_234.csv",
+      "rows": 26,
+      "approx_words": 36536
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_235.csv",
+      "rows": 45,
+      "approx_words": 36733
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_236.csv",
+      "rows": 41,
+      "approx_words": 37983
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_237.csv",
+      "rows": 43,
+      "approx_words": 35553
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_238.csv",
+      "rows": 39,
+      "approx_words": 36282
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_239.csv",
+      "rows": 43,
+      "approx_words": 37680
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_240.csv",
+      "rows": 39,
+      "approx_words": 37859
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_241.csv",
+      "rows": 43,
+      "approx_words": 36254
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_242.csv",
+      "rows": 36,
+      "approx_words": 35939
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_243.csv",
+      "rows": 44,
+      "approx_words": 36116
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_244.csv",
+      "rows": 34,
+      "approx_words": 34678
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_245.csv",
+      "rows": 24,
+      "approx_words": 36571
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_246.csv",
+      "rows": 38,
+      "approx_words": 36694
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_247.csv",
+      "rows": 31,
+      "approx_words": 37564
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_248.csv",
+      "rows": 31,
+      "approx_words": 37811
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_249.csv",
+      "rows": 43,
+      "approx_words": 37826
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_250.csv",
+      "rows": 29,
+      "approx_words": 37777
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_251.csv",
+      "rows": 47,
+      "approx_words": 36329
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_252.csv",
+      "rows": 35,
+      "approx_words": 37866
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_253.csv",
+      "rows": 46,
+      "approx_words": 36063
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_254.csv",
+      "rows": 29,
+      "approx_words": 37498
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_255.csv",
+      "rows": 37,
+      "approx_words": 36733
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_256.csv",
+      "rows": 43,
+      "approx_words": 37395
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_257.csv",
+      "rows": 30,
+      "approx_words": 36442
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_258.csv",
+      "rows": 32,
+      "approx_words": 36887
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_259.csv",
+      "rows": 46,
+      "approx_words": 35663
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_260.csv",
+      "rows": 40,
+      "approx_words": 37511
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_261.csv",
+      "rows": 31,
+      "approx_words": 37855
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_262.csv",
+      "rows": 33,
+      "approx_words": 36785
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_263.csv",
+      "rows": 36,
+      "approx_words": 36674
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_264.csv",
+      "rows": 29,
+      "approx_words": 37978
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_265.csv",
+      "rows": 37,
+      "approx_words": 36376
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_266.csv",
+      "rows": 52,
+      "approx_words": 37793
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_267.csv",
+      "rows": 31,
+      "approx_words": 37281
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_268.csv",
+      "rows": 26,
+      "approx_words": 35957
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_269.csv",
+      "rows": 44,
+      "approx_words": 37495
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_270.csv",
+      "rows": 29,
+      "approx_words": 35867
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_271.csv",
+      "rows": 39,
+      "approx_words": 37015
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_272.csv",
+      "rows": 46,
+      "approx_words": 33351
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_273.csv",
+      "rows": 27,
+      "approx_words": 36733
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_274.csv",
+      "rows": 30,
+      "approx_words": 37198
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_275.csv",
+      "rows": 44,
+      "approx_words": 37719
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_276.csv",
+      "rows": 32,
+      "approx_words": 37612
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_277.csv",
+      "rows": 38,
+      "approx_words": 34188
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_278.csv",
+      "rows": 33,
+      "approx_words": 35878
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_279.csv",
+      "rows": 41,
+      "approx_words": 37942
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_280.csv",
+      "rows": 50,
+      "approx_words": 36809
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_281.csv",
+      "rows": 40,
+      "approx_words": 36451
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_282.csv",
+      "rows": 29,
+      "approx_words": 37102
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_283.csv",
+      "rows": 40,
+      "approx_words": 37651
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_284.csv",
+      "rows": 38,
+      "approx_words": 37745
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_285.csv",
+      "rows": 36,
+      "approx_words": 37994
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_286.csv",
+      "rows": 36,
+      "approx_words": 37516
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_287.csv",
+      "rows": 44,
+      "approx_words": 36976
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_288.csv",
+      "rows": 36,
+      "approx_words": 37573
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_289.csv",
+      "rows": 37,
+      "approx_words": 37490
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_290.csv",
+      "rows": 28,
+      "approx_words": 37947
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_291.csv",
+      "rows": 36,
+      "approx_words": 36341
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_292.csv",
+      "rows": 30,
+      "approx_words": 37705
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_293.csv",
+      "rows": 30,
+      "approx_words": 36625
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_294.csv",
+      "rows": 24,
+      "approx_words": 36546
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_295.csv",
+      "rows": 30,
+      "approx_words": 37517
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_296.csv",
+      "rows": 21,
+      "approx_words": 37934
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_297.csv",
+      "rows": 28,
+      "approx_words": 37930
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_298.csv",
+      "rows": 36,
+      "approx_words": 36377
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_299.csv",
+      "rows": 29,
+      "approx_words": 35594
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_300.csv",
+      "rows": 31,
+      "approx_words": 36807
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_301.csv",
+      "rows": 25,
+      "approx_words": 34881
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_302.csv",
+      "rows": 26,
+      "approx_words": 36440
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_303.csv",
+      "rows": 32,
+      "approx_words": 37722
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_304.csv",
+      "rows": 29,
+      "approx_words": 37121
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_305.csv",
+      "rows": 32,
+      "approx_words": 36422
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_306.csv",
+      "rows": 26,
+      "approx_words": 36484
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_307.csv",
+      "rows": 24,
+      "approx_words": 36250
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_308.csv",
+      "rows": 42,
+      "approx_words": 36275
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_309.csv",
+      "rows": 39,
+      "approx_words": 36481
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_310.csv",
+      "rows": 36,
+      "approx_words": 34265
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_311.csv",
+      "rows": 36,
+      "approx_words": 36548
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_312.csv",
+      "rows": 30,
+      "approx_words": 37975
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_313.csv",
+      "rows": 30,
+      "approx_words": 34768
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_314.csv",
+      "rows": 35,
+      "approx_words": 37568
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_315.csv",
+      "rows": 26,
+      "approx_words": 36245
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_316.csv",
+      "rows": 34,
+      "approx_words": 36005
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_317.csv",
+      "rows": 38,
+      "approx_words": 37623
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_318.csv",
+      "rows": 39,
+      "approx_words": 37592
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_319.csv",
+      "rows": 30,
+      "approx_words": 36638
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_320.csv",
+      "rows": 39,
+      "approx_words": 35480
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_321.csv",
+      "rows": 30,
+      "approx_words": 37694
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_322.csv",
+      "rows": 42,
+      "approx_words": 36536
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_323.csv",
+      "rows": 41,
+      "approx_words": 37861
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_324.csv",
+      "rows": 28,
+      "approx_words": 35342
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_325.csv",
+      "rows": 36,
+      "approx_words": 36694
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_326.csv",
+      "rows": 30,
+      "approx_words": 35812
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_327.csv",
+      "rows": 33,
+      "approx_words": 37298
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_328.csv",
+      "rows": 28,
+      "approx_words": 37991
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_329.csv",
+      "rows": 35,
+      "approx_words": 35874
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_330.csv",
+      "rows": 35,
+      "approx_words": 36476
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_331.csv",
+      "rows": 32,
+      "approx_words": 37037
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_332.csv",
+      "rows": 30,
+      "approx_words": 37169
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_333.csv",
+      "rows": 27,
+      "approx_words": 34941
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_334.csv",
+      "rows": 37,
+      "approx_words": 36786
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_335.csv",
+      "rows": 34,
+      "approx_words": 37856
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_336.csv",
+      "rows": 31,
+      "approx_words": 35812
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_337.csv",
+      "rows": 31,
+      "approx_words": 37151
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_338.csv",
+      "rows": 33,
+      "approx_words": 37730
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_339.csv",
+      "rows": 29,
+      "approx_words": 34420
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_340.csv",
+      "rows": 28,
+      "approx_words": 36325
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_341.csv",
+      "rows": 42,
+      "approx_words": 37984
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_342.csv",
+      "rows": 38,
+      "approx_words": 36469
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_343.csv",
+      "rows": 27,
+      "approx_words": 37955
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_344.csv",
+      "rows": 38,
+      "approx_words": 37128
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_345.csv",
+      "rows": 24,
+      "approx_words": 36854
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_346.csv",
+      "rows": 32,
+      "approx_words": 35997
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_347.csv",
+      "rows": 43,
+      "approx_words": 37121
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_348.csv",
+      "rows": 31,
+      "approx_words": 37469
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_349.csv",
+      "rows": 31,
+      "approx_words": 35980
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_350.csv",
+      "rows": 32,
+      "approx_words": 37358
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_351.csv",
+      "rows": 35,
+      "approx_words": 36359
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_352.csv",
+      "rows": 28,
+      "approx_words": 37537
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_353.csv",
+      "rows": 33,
+      "approx_words": 36165
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_354.csv",
+      "rows": 37,
+      "approx_words": 37547
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_355.csv",
+      "rows": 31,
+      "approx_words": 37364
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_356.csv",
+      "rows": 41,
+      "approx_words": 34892
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_357.csv",
+      "rows": 41,
+      "approx_words": 37300
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_358.csv",
+      "rows": 41,
+      "approx_words": 37877
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_359.csv",
+      "rows": 42,
+      "approx_words": 37336
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_360.csv",
+      "rows": 31,
+      "approx_words": 36946
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_361.csv",
+      "rows": 29,
+      "approx_words": 36425
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_362.csv",
+      "rows": 38,
+      "approx_words": 37886
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_363.csv",
+      "rows": 48,
+      "approx_words": 36409
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_364.csv",
+      "rows": 26,
+      "approx_words": 36161
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_365.csv",
+      "rows": 38,
+      "approx_words": 37967
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_366.csv",
+      "rows": 40,
+      "approx_words": 37963
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_367.csv",
+      "rows": 52,
+      "approx_words": 37984
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_368.csv",
+      "rows": 38,
+      "approx_words": 37773
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_369.csv",
+      "rows": 36,
+      "approx_words": 36307
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_370.csv",
+      "rows": 33,
+      "approx_words": 37093
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_371.csv",
+      "rows": 27,
+      "approx_words": 36662
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_372.csv",
+      "rows": 41,
+      "approx_words": 37937
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_373.csv",
+      "rows": 31,
+      "approx_words": 36276
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_374.csv",
+      "rows": 37,
+      "approx_words": 35813
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_375.csv",
+      "rows": 32,
+      "approx_words": 37501
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_376.csv",
+      "rows": 29,
+      "approx_words": 37944
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_377.csv",
+      "rows": 41,
+      "approx_words": 37138
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_378.csv",
+      "rows": 38,
+      "approx_words": 37902
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_379.csv",
+      "rows": 44,
+      "approx_words": 37050
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_380.csv",
+      "rows": 36,
+      "approx_words": 36420
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_381.csv",
+      "rows": 31,
+      "approx_words": 37828
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_382.csv",
+      "rows": 37,
+      "approx_words": 37742
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_383.csv",
+      "rows": 28,
+      "approx_words": 33756
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_384.csv",
+      "rows": 36,
+      "approx_words": 36556
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_385.csv",
+      "rows": 38,
+      "approx_words": 37383
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_386.csv",
+      "rows": 32,
+      "approx_words": 36739
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_387.csv",
+      "rows": 33,
+      "approx_words": 37446
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_388.csv",
+      "rows": 27,
+      "approx_words": 37954
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_389.csv",
+      "rows": 30,
+      "approx_words": 37453
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_390.csv",
+      "rows": 32,
+      "approx_words": 37554
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_391.csv",
+      "rows": 40,
+      "approx_words": 37299
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_392.csv",
+      "rows": 37,
+      "approx_words": 37702
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_393.csv",
+      "rows": 36,
+      "approx_words": 36326
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_394.csv",
+      "rows": 32,
+      "approx_words": 34825
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_395.csv",
+      "rows": 35,
+      "approx_words": 37340
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_396.csv",
+      "rows": 27,
+      "approx_words": 36347
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_397.csv",
+      "rows": 24,
+      "approx_words": 37807
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_398.csv",
+      "rows": 30,
+      "approx_words": 35499
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_399.csv",
+      "rows": 38,
+      "approx_words": 35614
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_400.csv",
+      "rows": 39,
+      "approx_words": 36540
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_401.csv",
+      "rows": 32,
+      "approx_words": 37445
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_402.csv",
+      "rows": 29,
+      "approx_words": 37504
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_403.csv",
+      "rows": 27,
+      "approx_words": 35282
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_404.csv",
+      "rows": 26,
+      "approx_words": 36438
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_405.csv",
+      "rows": 36,
+      "approx_words": 37837
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_406.csv",
+      "rows": 40,
+      "approx_words": 37057
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_407.csv",
+      "rows": 35,
+      "approx_words": 37924
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_408.csv",
+      "rows": 38,
+      "approx_words": 36811
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_409.csv",
+      "rows": 36,
+      "approx_words": 34305
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_410.csv",
+      "rows": 38,
+      "approx_words": 36019
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_411.csv",
+      "rows": 24,
+      "approx_words": 37403
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_412.csv",
+      "rows": 30,
+      "approx_words": 37360
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_413.csv",
+      "rows": 34,
+      "approx_words": 37044
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_414.csv",
+      "rows": 38,
+      "approx_words": 36752
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_415.csv",
+      "rows": 29,
+      "approx_words": 37358
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_416.csv",
+      "rows": 40,
+      "approx_words": 37800
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_417.csv",
+      "rows": 37,
+      "approx_words": 37090
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_418.csv",
+      "rows": 31,
+      "approx_words": 36308
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_419.csv",
+      "rows": 20,
+      "approx_words": 36206
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_420.csv",
+      "rows": 35,
+      "approx_words": 37955
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_421.csv",
+      "rows": 34,
+      "approx_words": 37937
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_422.csv",
+      "rows": 35,
+      "approx_words": 35628
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_423.csv",
+      "rows": 34,
+      "approx_words": 37965
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_424.csv",
+      "rows": 32,
+      "approx_words": 37123
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_425.csv",
+      "rows": 32,
+      "approx_words": 36487
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_426.csv",
+      "rows": 30,
+      "approx_words": 36552
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_427.csv",
+      "rows": 36,
+      "approx_words": 37124
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_428.csv",
+      "rows": 39,
+      "approx_words": 37891
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_429.csv",
+      "rows": 30,
+      "approx_words": 36881
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_430.csv",
+      "rows": 45,
+      "approx_words": 35962
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_431.csv",
+      "rows": 29,
+      "approx_words": 36172
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_432.csv",
+      "rows": 34,
+      "approx_words": 35703
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_433.csv",
+      "rows": 35,
+      "approx_words": 37032
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_434.csv",
+      "rows": 35,
+      "approx_words": 37956
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_435.csv",
+      "rows": 28,
+      "approx_words": 37873
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_436.csv",
+      "rows": 35,
+      "approx_words": 37364
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_437.csv",
+      "rows": 35,
+      "approx_words": 35878
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_438.csv",
+      "rows": 36,
+      "approx_words": 37841
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_439.csv",
+      "rows": 40,
+      "approx_words": 37943
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_440.csv",
+      "rows": 34,
+      "approx_words": 37941
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_441.csv",
+      "rows": 37,
+      "approx_words": 36618
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_442.csv",
+      "rows": 33,
+      "approx_words": 37978
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_443.csv",
+      "rows": 42,
+      "approx_words": 36692
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_444.csv",
+      "rows": 36,
+      "approx_words": 36032
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_445.csv",
+      "rows": 47,
+      "approx_words": 37512
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_446.csv",
+      "rows": 26,
+      "approx_words": 36640
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_447.csv",
+      "rows": 40,
+      "approx_words": 37282
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_448.csv",
+      "rows": 34,
+      "approx_words": 36984
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_449.csv",
+      "rows": 30,
+      "approx_words": 36503
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_450.csv",
+      "rows": 49,
+      "approx_words": 37620
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_451.csv",
+      "rows": 37,
+      "approx_words": 36497
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_452.csv",
+      "rows": 35,
+      "approx_words": 37401
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_453.csv",
+      "rows": 33,
+      "approx_words": 37199
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_454.csv",
+      "rows": 24,
+      "approx_words": 35334
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_455.csv",
+      "rows": 37,
+      "approx_words": 37081
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_456.csv",
+      "rows": 30,
+      "approx_words": 36341
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_457.csv",
+      "rows": 42,
+      "approx_words": 37919
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_458.csv",
+      "rows": 42,
+      "approx_words": 37237
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_459.csv",
+      "rows": 46,
+      "approx_words": 36684
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_460.csv",
+      "rows": 26,
+      "approx_words": 35974
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_461.csv",
+      "rows": 47,
+      "approx_words": 36909
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_462.csv",
+      "rows": 22,
+      "approx_words": 36065
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_463.csv",
+      "rows": 49,
+      "approx_words": 37481
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_464.csv",
+      "rows": 48,
+      "approx_words": 37831
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_465.csv",
+      "rows": 32,
+      "approx_words": 36077
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_466.csv",
+      "rows": 39,
+      "approx_words": 37551
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_467.csv",
+      "rows": 33,
+      "approx_words": 36034
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_468.csv",
+      "rows": 33,
+      "approx_words": 37643
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_469.csv",
+      "rows": 45,
+      "approx_words": 37938
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_470.csv",
+      "rows": 38,
+      "approx_words": 37743
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_471.csv",
+      "rows": 31,
+      "approx_words": 36967
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_472.csv",
+      "rows": 31,
+      "approx_words": 36097
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_473.csv",
+      "rows": 32,
+      "approx_words": 37152
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_474.csv",
+      "rows": 31,
+      "approx_words": 37524
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_475.csv",
+      "rows": 37,
+      "approx_words": 37355
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_476.csv",
+      "rows": 41,
+      "approx_words": 37910
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_477.csv",
+      "rows": 42,
+      "approx_words": 37989
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_478.csv",
+      "rows": 38,
+      "approx_words": 36398
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_479.csv",
+      "rows": 36,
+      "approx_words": 37873
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_480.csv",
+      "rows": 40,
+      "approx_words": 36240
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_481.csv",
+      "rows": 34,
+      "approx_words": 37864
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_482.csv",
+      "rows": 35,
+      "approx_words": 35361
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_483.csv",
+      "rows": 32,
+      "approx_words": 36578
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_484.csv",
+      "rows": 37,
+      "approx_words": 37135
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_485.csv",
+      "rows": 38,
+      "approx_words": 35605
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_486.csv",
+      "rows": 39,
+      "approx_words": 36184
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_487.csv",
+      "rows": 36,
+      "approx_words": 35921
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_488.csv",
+      "rows": 34,
+      "approx_words": 37309
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_489.csv",
+      "rows": 32,
+      "approx_words": 37500
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_490.csv",
+      "rows": 42,
+      "approx_words": 37914
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_491.csv",
+      "rows": 35,
+      "approx_words": 37671
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_492.csv",
+      "rows": 28,
+      "approx_words": 34482
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_493.csv",
+      "rows": 36,
+      "approx_words": 37746
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_494.csv",
+      "rows": 31,
+      "approx_words": 37958
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_495.csv",
+      "rows": 31,
+      "approx_words": 37774
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_496.csv",
+      "rows": 28,
+      "approx_words": 36515
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_497.csv",
+      "rows": 30,
+      "approx_words": 34225
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_498.csv",
+      "rows": 33,
+      "approx_words": 37614
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_499.csv",
+      "rows": 21,
+      "approx_words": 34218
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_500.csv",
+      "rows": 32,
+      "approx_words": 34526
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_501.csv",
+      "rows": 23,
+      "approx_words": 36832
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_502.csv",
+      "rows": 36,
+      "approx_words": 37896
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_503.csv",
+      "rows": 31,
+      "approx_words": 36625
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_504.csv",
+      "rows": 32,
+      "approx_words": 37712
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_505.csv",
+      "rows": 23,
+      "approx_words": 32697
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_506.csv",
+      "rows": 23,
+      "approx_words": 37508
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_507.csv",
+      "rows": 40,
+      "approx_words": 37146
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_508.csv",
+      "rows": 33,
+      "approx_words": 36724
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_509.csv",
+      "rows": 47,
+      "approx_words": 37629
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_510.csv",
+      "rows": 32,
+      "approx_words": 37314
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_511.csv",
+      "rows": 37,
+      "approx_words": 36120
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_512.csv",
+      "rows": 40,
+      "approx_words": 37609
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_513.csv",
+      "rows": 34,
+      "approx_words": 37950
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_514.csv",
+      "rows": 35,
+      "approx_words": 36427
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_515.csv",
+      "rows": 40,
+      "approx_words": 37295
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_516.csv",
+      "rows": 35,
+      "approx_words": 35753
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_517.csv",
+      "rows": 30,
+      "approx_words": 37700
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_518.csv",
+      "rows": 32,
+      "approx_words": 37175
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_519.csv",
+      "rows": 36,
+      "approx_words": 37963
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_520.csv",
+      "rows": 39,
+      "approx_words": 37785
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_521.csv",
+      "rows": 36,
+      "approx_words": 36439
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_522.csv",
+      "rows": 36,
+      "approx_words": 36538
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_523.csv",
+      "rows": 40,
+      "approx_words": 37441
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_524.csv",
+      "rows": 37,
+      "approx_words": 36960
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_525.csv",
+      "rows": 33,
+      "approx_words": 36737
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_526.csv",
+      "rows": 35,
+      "approx_words": 37624
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_527.csv",
+      "rows": 51,
+      "approx_words": 37580
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_528.csv",
+      "rows": 40,
+      "approx_words": 37018
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_529.csv",
+      "rows": 45,
+      "approx_words": 36258
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_530.csv",
+      "rows": 26,
+      "approx_words": 36482
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_531.csv",
+      "rows": 21,
+      "approx_words": 33266
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_532.csv",
+      "rows": 24,
+      "approx_words": 36220
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_533.csv",
+      "rows": 35,
+      "approx_words": 37750
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_534.csv",
+      "rows": 36,
+      "approx_words": 34296
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_535.csv",
+      "rows": 34,
+      "approx_words": 37744
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_536.csv",
+      "rows": 32,
+      "approx_words": 37344
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_537.csv",
+      "rows": 29,
+      "approx_words": 37165
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_538.csv",
+      "rows": 43,
+      "approx_words": 37716
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_539.csv",
+      "rows": 32,
+      "approx_words": 37083
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_540.csv",
+      "rows": 33,
+      "approx_words": 36684
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_541.csv",
+      "rows": 37,
+      "approx_words": 37368
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_542.csv",
+      "rows": 46,
+      "approx_words": 36553
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_543.csv",
+      "rows": 33,
+      "approx_words": 36840
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_544.csv",
+      "rows": 42,
+      "approx_words": 37895
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_545.csv",
+      "rows": 36,
+      "approx_words": 37600
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_546.csv",
+      "rows": 33,
+      "approx_words": 37340
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_547.csv",
+      "rows": 30,
+      "approx_words": 36055
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_548.csv",
+      "rows": 38,
+      "approx_words": 37582
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_549.csv",
+      "rows": 32,
+      "approx_words": 37138
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_550.csv",
+      "rows": 32,
+      "approx_words": 37732
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_551.csv",
+      "rows": 30,
+      "approx_words": 37589
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_552.csv",
+      "rows": 41,
+      "approx_words": 36824
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_553.csv",
+      "rows": 33,
+      "approx_words": 37351
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_554.csv",
+      "rows": 40,
+      "approx_words": 36073
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_555.csv",
+      "rows": 30,
+      "approx_words": 35002
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_556.csv",
+      "rows": 28,
+      "approx_words": 36282
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_557.csv",
+      "rows": 27,
+      "approx_words": 37692
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_558.csv",
+      "rows": 37,
+      "approx_words": 36792
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_559.csv",
+      "rows": 31,
+      "approx_words": 37965
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_560.csv",
+      "rows": 37,
+      "approx_words": 36208
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_561.csv",
+      "rows": 29,
+      "approx_words": 35296
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_562.csv",
+      "rows": 47,
+      "approx_words": 36812
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_563.csv",
+      "rows": 39,
+      "approx_words": 35778
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_564.csv",
+      "rows": 28,
+      "approx_words": 37129
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_565.csv",
+      "rows": 38,
+      "approx_words": 37964
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_566.csv",
+      "rows": 28,
+      "approx_words": 34417
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_567.csv",
+      "rows": 36,
+      "approx_words": 37096
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_568.csv",
+      "rows": 29,
+      "approx_words": 37357
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_569.csv",
+      "rows": 39,
+      "approx_words": 35716
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_570.csv",
+      "rows": 34,
+      "approx_words": 36433
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_571.csv",
+      "rows": 44,
+      "approx_words": 37400
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_572.csv",
+      "rows": 32,
+      "approx_words": 36370
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_573.csv",
+      "rows": 23,
+      "approx_words": 29239
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_574.csv",
+      "rows": 24,
+      "approx_words": 37327
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_575.csv",
+      "rows": 27,
+      "approx_words": 35446
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_576.csv",
+      "rows": 39,
+      "approx_words": 37337
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_577.csv",
+      "rows": 38,
+      "approx_words": 36544
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_578.csv",
+      "rows": 33,
+      "approx_words": 36989
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_579.csv",
+      "rows": 31,
+      "approx_words": 36139
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_580.csv",
+      "rows": 36,
+      "approx_words": 37506
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_581.csv",
+      "rows": 37,
+      "approx_words": 37141
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_582.csv",
+      "rows": 35,
+      "approx_words": 37450
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_583.csv",
+      "rows": 35,
+      "approx_words": 37790
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_584.csv",
+      "rows": 39,
+      "approx_words": 37238
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_585.csv",
+      "rows": 35,
+      "approx_words": 37941
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_586.csv",
+      "rows": 46,
+      "approx_words": 37875
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_587.csv",
+      "rows": 29,
+      "approx_words": 35970
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_588.csv",
+      "rows": 32,
+      "approx_words": 37529
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_589.csv",
+      "rows": 36,
+      "approx_words": 37581
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_590.csv",
+      "rows": 34,
+      "approx_words": 37043
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_591.csv",
+      "rows": 38,
+      "approx_words": 37829
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_592.csv",
+      "rows": 36,
+      "approx_words": 37948
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_593.csv",
+      "rows": 42,
+      "approx_words": 37705
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_594.csv",
+      "rows": 39,
+      "approx_words": 37824
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_595.csv",
+      "rows": 52,
+      "approx_words": 36983
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_596.csv",
+      "rows": 37,
+      "approx_words": 36124
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_597.csv",
+      "rows": 34,
+      "approx_words": 36000
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_598.csv",
+      "rows": 36,
+      "approx_words": 37940
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_599.csv",
+      "rows": 44,
+      "approx_words": 36388
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_600.csv",
+      "rows": 32,
+      "approx_words": 36211
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_601.csv",
+      "rows": 28,
+      "approx_words": 37960
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_602.csv",
+      "rows": 35,
+      "approx_words": 36248
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_603.csv",
+      "rows": 31,
+      "approx_words": 37902
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_604.csv",
+      "rows": 35,
+      "approx_words": 37492
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_605.csv",
+      "rows": 37,
+      "approx_words": 36311
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_606.csv",
+      "rows": 39,
+      "approx_words": 37748
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_607.csv",
+      "rows": 32,
+      "approx_words": 37698
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_608.csv",
+      "rows": 44,
+      "approx_words": 36846
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_609.csv",
+      "rows": 37,
+      "approx_words": 35930
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_610.csv",
+      "rows": 32,
+      "approx_words": 37819
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_611.csv",
+      "rows": 23,
+      "approx_words": 35753
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_612.csv",
+      "rows": 35,
+      "approx_words": 37369
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_613.csv",
+      "rows": 27,
+      "approx_words": 36207
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_614.csv",
+      "rows": 41,
+      "approx_words": 34949
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_615.csv",
+      "rows": 30,
+      "approx_words": 36827
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_616.csv",
+      "rows": 32,
+      "approx_words": 35141
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_617.csv",
+      "rows": 42,
+      "approx_words": 37783
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_618.csv",
+      "rows": 34,
+      "approx_words": 37647
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_619.csv",
+      "rows": 48,
+      "approx_words": 37939
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_620.csv",
+      "rows": 52,
+      "approx_words": 37782
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_621.csv",
+      "rows": 36,
+      "approx_words": 37315
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_622.csv",
+      "rows": 38,
+      "approx_words": 36180
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_623.csv",
+      "rows": 41,
+      "approx_words": 35737
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_624.csv",
+      "rows": 29,
+      "approx_words": 37341
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_625.csv",
+      "rows": 33,
+      "approx_words": 37057
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_626.csv",
+      "rows": 40,
+      "approx_words": 37886
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_627.csv",
+      "rows": 41,
+      "approx_words": 37991
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_628.csv",
+      "rows": 35,
+      "approx_words": 36661
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_629.csv",
+      "rows": 32,
+      "approx_words": 36703
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_630.csv",
+      "rows": 38,
+      "approx_words": 36101
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_631.csv",
+      "rows": 28,
+      "approx_words": 37024
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_632.csv",
+      "rows": 43,
+      "approx_words": 37383
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_633.csv",
+      "rows": 37,
+      "approx_words": 37164
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_634.csv",
+      "rows": 38,
+      "approx_words": 37691
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_635.csv",
+      "rows": 30,
+      "approx_words": 37096
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_636.csv",
+      "rows": 26,
+      "approx_words": 36049
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_637.csv",
+      "rows": 36,
+      "approx_words": 37827
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_638.csv",
+      "rows": 38,
+      "approx_words": 36933
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_639.csv",
+      "rows": 27,
+      "approx_words": 37709
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_640.csv",
+      "rows": 24,
+      "approx_words": 36006
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_641.csv",
+      "rows": 37,
+      "approx_words": 33805
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_642.csv",
+      "rows": 27,
+      "approx_words": 37726
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_643.csv",
+      "rows": 49,
+      "approx_words": 36280
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_644.csv",
+      "rows": 37,
+      "approx_words": 36343
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_645.csv",
+      "rows": 33,
+      "approx_words": 36464
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_646.csv",
+      "rows": 35,
+      "approx_words": 36966
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_647.csv",
+      "rows": 43,
+      "approx_words": 36831
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_648.csv",
+      "rows": 36,
+      "approx_words": 36898
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_649.csv",
+      "rows": 47,
+      "approx_words": 37564
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_650.csv",
+      "rows": 34,
+      "approx_words": 37777
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_651.csv",
+      "rows": 47,
+      "approx_words": 37884
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_652.csv",
+      "rows": 34,
+      "approx_words": 37924
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_653.csv",
+      "rows": 45,
+      "approx_words": 37175
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_654.csv",
+      "rows": 31,
+      "approx_words": 37876
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_655.csv",
+      "rows": 32,
+      "approx_words": 35359
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_656.csv",
+      "rows": 46,
+      "approx_words": 36748
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_657.csv",
+      "rows": 31,
+      "approx_words": 37943
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_658.csv",
+      "rows": 35,
+      "approx_words": 36245
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_659.csv",
+      "rows": 33,
+      "approx_words": 36727
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_660.csv",
+      "rows": 38,
+      "approx_words": 37914
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_661.csv",
+      "rows": 27,
+      "approx_words": 36168
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_662.csv",
+      "rows": 43,
+      "approx_words": 37063
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_663.csv",
+      "rows": 37,
+      "approx_words": 37941
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_664.csv",
+      "rows": 35,
+      "approx_words": 37601
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_665.csv",
+      "rows": 32,
+      "approx_words": 36592
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_666.csv",
+      "rows": 36,
+      "approx_words": 37988
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_667.csv",
+      "rows": 35,
+      "approx_words": 37308
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_668.csv",
+      "rows": 34,
+      "approx_words": 32658
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_669.csv",
+      "rows": 33,
+      "approx_words": 37389
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_670.csv",
+      "rows": 42,
+      "approx_words": 37066
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_671.csv",
+      "rows": 44,
+      "approx_words": 37713
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_672.csv",
+      "rows": 23,
+      "approx_words": 36323
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_673.csv",
+      "rows": 27,
+      "approx_words": 37841
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_674.csv",
+      "rows": 33,
+      "approx_words": 36911
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_675.csv",
+      "rows": 33,
+      "approx_words": 37789
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_676.csv",
+      "rows": 37,
+      "approx_words": 34162
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_677.csv",
+      "rows": 33,
+      "approx_words": 37288
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_678.csv",
+      "rows": 40,
+      "approx_words": 36518
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_679.csv",
+      "rows": 34,
+      "approx_words": 36334
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_680.csv",
+      "rows": 36,
+      "approx_words": 37653
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_681.csv",
+      "rows": 40,
+      "approx_words": 37286
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_682.csv",
+      "rows": 31,
+      "approx_words": 36489
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_683.csv",
+      "rows": 28,
+      "approx_words": 37283
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_684.csv",
+      "rows": 31,
+      "approx_words": 35793
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_685.csv",
+      "rows": 39,
+      "approx_words": 37189
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_686.csv",
+      "rows": 42,
+      "approx_words": 37263
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_687.csv",
+      "rows": 23,
+      "approx_words": 37341
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_688.csv",
+      "rows": 25,
+      "approx_words": 37071
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_689.csv",
+      "rows": 33,
+      "approx_words": 36880
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_690.csv",
+      "rows": 31,
+      "approx_words": 36972
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_691.csv",
+      "rows": 38,
+      "approx_words": 34993
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_692.csv",
+      "rows": 42,
+      "approx_words": 36257
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_693.csv",
+      "rows": 38,
+      "approx_words": 37415
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_694.csv",
+      "rows": 47,
+      "approx_words": 37503
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_695.csv",
+      "rows": 38,
+      "approx_words": 36933
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_696.csv",
+      "rows": 38,
+      "approx_words": 37860
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_697.csv",
+      "rows": 40,
+      "approx_words": 37671
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_698.csv",
+      "rows": 28,
+      "approx_words": 36318
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_699.csv",
+      "rows": 39,
+      "approx_words": 36227
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_700.csv",
+      "rows": 30,
+      "approx_words": 37232
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_701.csv",
+      "rows": 39,
+      "approx_words": 37453
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_702.csv",
+      "rows": 34,
+      "approx_words": 37788
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_703.csv",
+      "rows": 53,
+      "approx_words": 37959
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_704.csv",
+      "rows": 35,
+      "approx_words": 36817
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_705.csv",
+      "rows": 39,
+      "approx_words": 37618
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_706.csv",
+      "rows": 36,
+      "approx_words": 37918
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_707.csv",
+      "rows": 38,
+      "approx_words": 37541
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_708.csv",
+      "rows": 48,
+      "approx_words": 37547
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_709.csv",
+      "rows": 35,
+      "approx_words": 37381
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_710.csv",
+      "rows": 27,
+      "approx_words": 37263
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_711.csv",
+      "rows": 39,
+      "approx_words": 37141
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_712.csv",
+      "rows": 22,
+      "approx_words": 34606
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_713.csv",
+      "rows": 36,
+      "approx_words": 35769
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_714.csv",
+      "rows": 28,
+      "approx_words": 37849
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_715.csv",
+      "rows": 35,
+      "approx_words": 37291
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_716.csv",
+      "rows": 33,
+      "approx_words": 37379
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_717.csv",
+      "rows": 40,
+      "approx_words": 37859
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_718.csv",
+      "rows": 35,
+      "approx_words": 37624
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_719.csv",
+      "rows": 41,
+      "approx_words": 35952
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_720.csv",
+      "rows": 49,
+      "approx_words": 37734
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_721.csv",
+      "rows": 35,
+      "approx_words": 37549
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_722.csv",
+      "rows": 34,
+      "approx_words": 36107
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_723.csv",
+      "rows": 35,
+      "approx_words": 36102
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_724.csv",
+      "rows": 35,
+      "approx_words": 37894
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_725.csv",
+      "rows": 34,
+      "approx_words": 36065
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_726.csv",
+      "rows": 40,
+      "approx_words": 37825
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_727.csv",
+      "rows": 41,
+      "approx_words": 37377
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_728.csv",
+      "rows": 34,
+      "approx_words": 35907
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_729.csv",
+      "rows": 37,
+      "approx_words": 37621
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_730.csv",
+      "rows": 34,
+      "approx_words": 34449
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_731.csv",
+      "rows": 33,
+      "approx_words": 37957
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_732.csv",
+      "rows": 24,
+      "approx_words": 37731
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_733.csv",
+      "rows": 37,
+      "approx_words": 37677
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_734.csv",
+      "rows": 34,
+      "approx_words": 37213
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_735.csv",
+      "rows": 36,
+      "approx_words": 37516
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_736.csv",
+      "rows": 44,
+      "approx_words": 37966
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_737.csv",
+      "rows": 32,
+      "approx_words": 37584
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_738.csv",
+      "rows": 30,
+      "approx_words": 35985
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_739.csv",
+      "rows": 27,
+      "approx_words": 34944
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_740.csv",
+      "rows": 30,
+      "approx_words": 35688
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_741.csv",
+      "rows": 36,
+      "approx_words": 37842
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_742.csv",
+      "rows": 31,
+      "approx_words": 37956
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_743.csv",
+      "rows": 35,
+      "approx_words": 37071
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_744.csv",
+      "rows": 31,
+      "approx_words": 37205
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_745.csv",
+      "rows": 37,
+      "approx_words": 37461
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_746.csv",
+      "rows": 28,
+      "approx_words": 37037
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_747.csv",
+      "rows": 38,
+      "approx_words": 37251
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_748.csv",
+      "rows": 36,
+      "approx_words": 37945
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_749.csv",
+      "rows": 44,
+      "approx_words": 37073
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_750.csv",
+      "rows": 32,
+      "approx_words": 37455
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_751.csv",
+      "rows": 31,
+      "approx_words": 36564
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_752.csv",
+      "rows": 26,
+      "approx_words": 37292
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_753.csv",
+      "rows": 31,
+      "approx_words": 35810
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_754.csv",
+      "rows": 34,
+      "approx_words": 37063
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_755.csv",
+      "rows": 32,
+      "approx_words": 37312
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_756.csv",
+      "rows": 28,
+      "approx_words": 37570
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_757.csv",
+      "rows": 40,
+      "approx_words": 37022
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_758.csv",
+      "rows": 38,
+      "approx_words": 37776
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_759.csv",
+      "rows": 42,
+      "approx_words": 36727
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_760.csv",
+      "rows": 29,
+      "approx_words": 36625
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_761.csv",
+      "rows": 44,
+      "approx_words": 36077
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_762.csv",
+      "rows": 27,
+      "approx_words": 37172
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_763.csv",
+      "rows": 35,
+      "approx_words": 37985
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_764.csv",
+      "rows": 31,
+      "approx_words": 37923
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_765.csv",
+      "rows": 42,
+      "approx_words": 36557
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_766.csv",
+      "rows": 33,
+      "approx_words": 36700
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_767.csv",
+      "rows": 37,
+      "approx_words": 37798
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_768.csv",
+      "rows": 41,
+      "approx_words": 36761
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_769.csv",
+      "rows": 47,
+      "approx_words": 36273
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_770.csv",
+      "rows": 32,
+      "approx_words": 37963
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_771.csv",
+      "rows": 29,
+      "approx_words": 36685
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_772.csv",
+      "rows": 28,
+      "approx_words": 37209
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_773.csv",
+      "rows": 46,
+      "approx_words": 37551
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_774.csv",
+      "rows": 37,
+      "approx_words": 37803
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_775.csv",
+      "rows": 38,
+      "approx_words": 36546
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_776.csv",
+      "rows": 34,
+      "approx_words": 37575
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_777.csv",
+      "rows": 48,
+      "approx_words": 37838
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_778.csv",
+      "rows": 28,
+      "approx_words": 37770
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_779.csv",
+      "rows": 50,
+      "approx_words": 37713
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_780.csv",
+      "rows": 40,
+      "approx_words": 36642
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_781.csv",
+      "rows": 45,
+      "approx_words": 37921
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_782.csv",
+      "rows": 32,
+      "approx_words": 37547
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_783.csv",
+      "rows": 30,
+      "approx_words": 37422
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_784.csv",
+      "rows": 34,
+      "approx_words": 37384
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_785.csv",
+      "rows": 34,
+      "approx_words": 35849
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_786.csv",
+      "rows": 38,
+      "approx_words": 37170
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_787.csv",
+      "rows": 35,
+      "approx_words": 37922
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_788.csv",
+      "rows": 48,
+      "approx_words": 37957
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_789.csv",
+      "rows": 31,
+      "approx_words": 35615
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_790.csv",
+      "rows": 28,
+      "approx_words": 37586
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_791.csv",
+      "rows": 33,
+      "approx_words": 37645
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_792.csv",
+      "rows": 40,
+      "approx_words": 37624
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_793.csv",
+      "rows": 35,
+      "approx_words": 36530
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_794.csv",
+      "rows": 42,
+      "approx_words": 35429
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_795.csv",
+      "rows": 37,
+      "approx_words": 36472
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_796.csv",
+      "rows": 37,
+      "approx_words": 37151
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_797.csv",
+      "rows": 38,
+      "approx_words": 37984
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_798.csv",
+      "rows": 37,
+      "approx_words": 35856
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_799.csv",
+      "rows": 43,
+      "approx_words": 36149
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_800.csv",
+      "rows": 40,
+      "approx_words": 36493
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_801.csv",
+      "rows": 29,
+      "approx_words": 37298
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_802.csv",
+      "rows": 30,
+      "approx_words": 36005
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_803.csv",
+      "rows": 26,
+      "approx_words": 37030
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_804.csv",
+      "rows": 47,
+      "approx_words": 36492
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_805.csv",
+      "rows": 29,
+      "approx_words": 37834
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_806.csv",
+      "rows": 29,
+      "approx_words": 37954
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_807.csv",
+      "rows": 32,
+      "approx_words": 36548
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_808.csv",
+      "rows": 29,
+      "approx_words": 35849
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_809.csv",
+      "rows": 35,
+      "approx_words": 37845
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_810.csv",
+      "rows": 48,
+      "approx_words": 37445
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_811.csv",
+      "rows": 34,
+      "approx_words": 36863
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_812.csv",
+      "rows": 37,
+      "approx_words": 36933
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_813.csv",
+      "rows": 36,
+      "approx_words": 36543
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_814.csv",
+      "rows": 28,
+      "approx_words": 37011
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_815.csv",
+      "rows": 46,
+      "approx_words": 36377
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_816.csv",
+      "rows": 32,
+      "approx_words": 35840
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_817.csv",
+      "rows": 38,
+      "approx_words": 36190
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_818.csv",
+      "rows": 38,
+      "approx_words": 36042
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_819.csv",
+      "rows": 35,
+      "approx_words": 36194
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_820.csv",
+      "rows": 34,
+      "approx_words": 37337
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_821.csv",
+      "rows": 38,
+      "approx_words": 36898
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_822.csv",
+      "rows": 50,
+      "approx_words": 35728
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_823.csv",
+      "rows": 32,
+      "approx_words": 36396
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_824.csv",
+      "rows": 34,
+      "approx_words": 36964
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_825.csv",
+      "rows": 51,
+      "approx_words": 37877
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_826.csv",
+      "rows": 34,
+      "approx_words": 36093
+    },
+    {
+      "file": "ilustracaoes_de_sermoes_rows_part_827.csv",
+      "rows": 12,
+      "approx_words": 11121
+    }
+  ]
+}

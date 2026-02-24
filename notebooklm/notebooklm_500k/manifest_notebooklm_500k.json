@@ -1,0 +1,444 @@
+{
+  "source_csv": "notebooklm/ilustracaoes_de_sermoes_rows.csv",
+  "total_rows": 29286,
+  "max_words_per_source": 500000,
+  "max_sources_per_notebook": 50,
+  "total_sources_created": 62,
+  "total_notebooks_needed": "notebook_02",
+  "parts": [
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_01/ilustracaoes_de_sermoes_500k_part_001.csv",
+      "notebook": "notebook_01",
+      "rows": 486,
+      "approx_words": 499972,
+      "size_bytes": 3198315
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_01/ilustracaoes_de_sermoes_500k_part_002.csv",
+      "notebook": "notebook_01",
+      "rows": 470,
+      "approx_words": 499024,
+      "size_bytes": 3181214
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_01/ilustracaoes_de_sermoes_500k_part_003.csv",
+      "notebook": "notebook_01",
+      "rows": 496,
+      "approx_words": 499460,
+      "size_bytes": 3215122
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_01/ilustracaoes_de_sermoes_500k_part_004.csv",
+      "notebook": "notebook_01",
+      "rows": 481,
+      "approx_words": 497740,
+      "size_bytes": 3200751
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_01/ilustracaoes_de_sermoes_500k_part_005.csv",
+      "notebook": "notebook_01",
+      "rows": 520,
+      "approx_words": 499237,
+      "size_bytes": 3237336
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_01/ilustracaoes_de_sermoes_500k_part_006.csv",
+      "notebook": "notebook_01",
+      "rows": 503,
+      "approx_words": 499027,
+      "size_bytes": 3237634
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_01/ilustracaoes_de_sermoes_500k_part_007.csv",
+      "notebook": "notebook_01",
+      "rows": 438,
+      "approx_words": 499830,
+      "size_bytes": 3181612
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_01/ilustracaoes_de_sermoes_500k_part_008.csv",
+      "notebook": "notebook_01",
+      "rows": 515,
+      "approx_words": 499012,
+      "size_bytes": 3236773
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_01/ilustracaoes_de_sermoes_500k_part_009.csv",
+      "notebook": "notebook_01",
+      "rows": 511,
+      "approx_words": 497909,
+      "size_bytes": 3209346
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_01/ilustracaoes_de_sermoes_500k_part_010.csv",
+      "notebook": "notebook_01",
+      "rows": 500,
+      "approx_words": 498104,
+      "size_bytes": 3210737
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_01/ilustracaoes_de_sermoes_500k_part_011.csv",
+      "notebook": "notebook_01",
+      "rows": 476,
+      "approx_words": 499495,
+      "size_bytes": 3203785
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_01/ilustracaoes_de_sermoes_500k_part_012.csv",
+      "notebook": "notebook_01",
+      "rows": 462,
+      "approx_words": 499981,
+      "size_bytes": 3189416
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_01/ilustracaoes_de_sermoes_500k_part_013.csv",
+      "notebook": "notebook_01",
+      "rows": 524,
+      "approx_words": 499483,
+      "size_bytes": 3225084
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_01/ilustracaoes_de_sermoes_500k_part_014.csv",
+      "notebook": "notebook_01",
+      "rows": 483,
+      "approx_words": 498836,
+      "size_bytes": 3216409
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_01/ilustracaoes_de_sermoes_500k_part_015.csv",
+      "notebook": "notebook_01",
+      "rows": 514,
+      "approx_words": 498374,
+      "size_bytes": 3226245
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_01/ilustracaoes_de_sermoes_500k_part_016.csv",
+      "notebook": "notebook_01",
+      "rows": 442,
+      "approx_words": 499114,
+      "size_bytes": 3175943
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_01/ilustracaoes_de_sermoes_500k_part_017.csv",
+      "notebook": "notebook_01",
+      "rows": 513,
+      "approx_words": 499495,
+      "size_bytes": 3203929
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_01/ilustracaoes_de_sermoes_500k_part_018.csv",
+      "notebook": "notebook_01",
+      "rows": 533,
+      "approx_words": 499764,
+      "size_bytes": 3241850
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_01/ilustracaoes_de_sermoes_500k_part_019.csv",
+      "notebook": "notebook_01",
+      "rows": 476,
+      "approx_words": 499961,
+      "size_bytes": 3213548
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_01/ilustracaoes_de_sermoes_500k_part_020.csv",
+      "notebook": "notebook_01",
+      "rows": 488,
+      "approx_words": 498053,
+      "size_bytes": 3195384
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_01/ilustracaoes_de_sermoes_500k_part_021.csv",
+      "notebook": "notebook_01",
+      "rows": 513,
+      "approx_words": 499448,
+      "size_bytes": 3215487
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_01/ilustracaoes_de_sermoes_500k_part_022.csv",
+      "notebook": "notebook_01",
+      "rows": 427,
+      "approx_words": 498493,
+      "size_bytes": 3162142
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_01/ilustracaoes_de_sermoes_500k_part_023.csv",
+      "notebook": "notebook_01",
+      "rows": 428,
+      "approx_words": 499131,
+      "size_bytes": 3174343
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_01/ilustracaoes_de_sermoes_500k_part_024.csv",
+      "notebook": "notebook_01",
+      "rows": 468,
+      "approx_words": 498027,
+      "size_bytes": 3188148
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_01/ilustracaoes_de_sermoes_500k_part_025.csv",
+      "notebook": "notebook_01",
+      "rows": 436,
+      "approx_words": 498789,
+      "size_bytes": 3178069
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_01/ilustracaoes_de_sermoes_500k_part_026.csv",
+      "notebook": "notebook_01",
+      "rows": 445,
+      "approx_words": 497718,
+      "size_bytes": 3174386
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_01/ilustracaoes_de_sermoes_500k_part_027.csv",
+      "notebook": "notebook_01",
+      "rows": 496,
+      "approx_words": 499585,
+      "size_bytes": 3234393
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_01/ilustracaoes_de_sermoes_500k_part_028.csv",
+      "notebook": "notebook_01",
+      "rows": 492,
+      "approx_words": 498415,
+      "size_bytes": 3212532
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_01/ilustracaoes_de_sermoes_500k_part_029.csv",
+      "notebook": "notebook_01",
+      "rows": 462,
+      "approx_words": 499825,
+      "size_bytes": 3215647
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_01/ilustracaoes_de_sermoes_500k_part_030.csv",
+      "notebook": "notebook_01",
+      "rows": 430,
+      "approx_words": 499972,
+      "size_bytes": 3170783
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_01/ilustracaoes_de_sermoes_500k_part_031.csv",
+      "notebook": "notebook_01",
+      "rows": 450,
+      "approx_words": 499176,
+      "size_bytes": 3163552
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_01/ilustracaoes_de_sermoes_500k_part_032.csv",
+      "notebook": "notebook_01",
+      "rows": 462,
+      "approx_words": 499482,
+      "size_bytes": 3191721
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_01/ilustracaoes_de_sermoes_500k_part_033.csv",
+      "notebook": "notebook_01",
+      "rows": 488,
+      "approx_words": 499832,
+      "size_bytes": 3225428
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_01/ilustracaoes_de_sermoes_500k_part_034.csv",
+      "notebook": "notebook_01",
+      "rows": 484,
+      "approx_words": 498046,
+      "size_bytes": 3203991
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_01/ilustracaoes_de_sermoes_500k_part_035.csv",
+      "notebook": "notebook_01",
+      "rows": 493,
+      "approx_words": 499910,
+      "size_bytes": 3215999
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_01/ilustracaoes_de_sermoes_500k_part_036.csv",
+      "notebook": "notebook_01",
+      "rows": 503,
+      "approx_words": 498036,
+      "size_bytes": 3228237
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_01/ilustracaoes_de_sermoes_500k_part_037.csv",
+      "notebook": "notebook_01",
+      "rows": 422,
+      "approx_words": 498428,
+      "size_bytes": 3156844
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_01/ilustracaoes_de_sermoes_500k_part_038.csv",
+      "notebook": "notebook_01",
+      "rows": 463,
+      "approx_words": 499401,
+      "size_bytes": 3195229
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_01/ilustracaoes_de_sermoes_500k_part_039.csv",
+      "notebook": "notebook_01",
+      "rows": 502,
+      "approx_words": 499363,
+      "size_bytes": 3219405
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_01/ilustracaoes_de_sermoes_500k_part_040.csv",
+      "notebook": "notebook_01",
+      "rows": 457,
+      "approx_words": 498546,
+      "size_bytes": 3187339
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_01/ilustracaoes_de_sermoes_500k_part_041.csv",
+      "notebook": "notebook_01",
+      "rows": 468,
+      "approx_words": 498429,
+      "size_bytes": 3187090
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_01/ilustracaoes_de_sermoes_500k_part_042.csv",
+      "notebook": "notebook_01",
+      "rows": 464,
+      "approx_words": 499884,
+      "size_bytes": 3197042
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_01/ilustracaoes_de_sermoes_500k_part_043.csv",
+      "notebook": "notebook_01",
+      "rows": 458,
+      "approx_words": 498251,
+      "size_bytes": 3173292
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_01/ilustracaoes_de_sermoes_500k_part_044.csv",
+      "notebook": "notebook_01",
+      "rows": 498,
+      "approx_words": 496482,
+      "size_bytes": 3201545
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_01/ilustracaoes_de_sermoes_500k_part_045.csv",
+      "notebook": "notebook_01",
+      "rows": 483,
+      "approx_words": 499988,
+      "size_bytes": 3209307
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_01/ilustracaoes_de_sermoes_500k_part_046.csv",
+      "notebook": "notebook_01",
+      "rows": 499,
+      "approx_words": 499575,
+      "size_bytes": 3224138
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_01/ilustracaoes_de_sermoes_500k_part_047.csv",
+      "notebook": "notebook_01",
+      "rows": 464,
+      "approx_words": 498596,
+      "size_bytes": 3201525
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_01/ilustracaoes_de_sermoes_500k_part_048.csv",
+      "notebook": "notebook_01",
+      "rows": 489,
+      "approx_words": 497765,
+      "size_bytes": 3197505
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_01/ilustracaoes_de_sermoes_500k_part_049.csv",
+      "notebook": "notebook_01",
+      "rows": 495,
+      "approx_words": 499441,
+      "size_bytes": 3220542
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_01/ilustracaoes_de_sermoes_500k_part_050.csv",
+      "notebook": "notebook_01",
+      "rows": 462,
+      "approx_words": 499767,
+      "size_bytes": 3196246
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_02/ilustracaoes_de_sermoes_500k_part_051.csv",
+      "notebook": "notebook_02",
+      "rows": 451,
+      "approx_words": 498854,
+      "size_bytes": 3190228
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_02/ilustracaoes_de_sermoes_500k_part_052.csv",
+      "notebook": "notebook_02",
+      "rows": 520,
+      "approx_words": 499790,
+      "size_bytes": 3238986
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_02/ilustracaoes_de_sermoes_500k_part_053.csv",
+      "notebook": "notebook_02",
+      "rows": 470,
+      "approx_words": 497653,
+      "size_bytes": 3196950
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_02/ilustracaoes_de_sermoes_500k_part_054.csv",
+      "notebook": "notebook_02",
+      "rows": 502,
+      "approx_words": 498704,
+      "size_bytes": 3204500
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_02/ilustracaoes_de_sermoes_500k_part_055.csv",
+      "notebook": "notebook_02",
+      "rows": 442,
+      "approx_words": 499518,
+      "size_bytes": 3180471
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_02/ilustracaoes_de_sermoes_500k_part_056.csv",
+      "notebook": "notebook_02",
+      "rows": 458,
+      "approx_words": 499255,
+      "size_bytes": 3194712
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_02/ilustracaoes_de_sermoes_500k_part_057.csv",
+      "notebook": "notebook_02",
+      "rows": 482,
+      "approx_words": 498141,
+      "size_bytes": 3187005
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_02/ilustracaoes_de_sermoes_500k_part_058.csv",
+      "notebook": "notebook_02",
+      "rows": 502,
+      "approx_words": 499052,
+      "size_bytes": 3205911
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_02/ilustracaoes_de_sermoes_500k_part_059.csv",
+      "notebook": "notebook_02",
+      "rows": 496,
+      "approx_words": 498898,
+      "size_bytes": 3204855
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_02/ilustracaoes_de_sermoes_500k_part_060.csv",
+      "notebook": "notebook_02",
+      "rows": 466,
+      "approx_words": 499480,
+      "size_bytes": 3198117
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_02/ilustracaoes_de_sermoes_500k_part_061.csv",
+      "notebook": "notebook_02",
+      "rows": 519,
+      "approx_words": 498416,
+      "size_bytes": 3215823
+    },
+    {
+      "file": "notebooklm/notebooklm_500k/notebook_02/ilustracaoes_de_sermoes_500k_part_062.csv",
+      "notebook": "notebook_02",
+      "rows": 46,
+      "approx_words": 47214,
+      "size_bytes": 298117
+    }
+  ]
+}
